@@ -126,3 +126,20 @@ The work : DORA ( Discover, Offer, Request, Acknowledge)
 
 
 # Network Address Translation (NAT)
+
+Allows devices on a private network to share a single public IP address, this was implemented to solve the shortage problem within IPv4 addresses 
+
+Private IP ranges:
+	Under RFC 1918
+	10.0.0.0 to 10.255.255.255
+	172.16.0.0 to 172.31.255.255
+	192.168.0.0 to 192.168.255.255
+
+This is done often by a router and is done by modifying the header IP address as it passes through 
+
+Types
+Static NATs - one to one mapping, one private one public
+Dynamic Nat - a pool of public address are shared between a pool of private addresses 
+Port Address Translation (PAT)- most common form - single public address for multiple private address, utilizing ports to distinguish between the different devices 
+
+# Domain Name Systems ( DNS)
