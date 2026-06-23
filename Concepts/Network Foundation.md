@@ -67,3 +67,16 @@ Transmission:
 		Half-plex - two ways but one at a time - walkie-talkies 
 		Full-plex - two way communication - phones 
 
+
+# Components of a Network
+
+End Devices - computers, smartphones, printers 
+
+Intermediary Devices - Switches, Routers, Modems, Wireless access points
+	Routers protocols - Open Shortest Path first (OSPF) or Border Gateway Protocol (BGP) different ways of finding the fastest / efficient path
+
+Network Media - Cables, protocols, firewall 
+
+Servers - Web Servers, File Servers, Mail Servers, Database Servers 
+
+Software Firewalls - installed on individual 
