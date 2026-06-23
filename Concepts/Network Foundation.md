@@ -43,5 +43,21 @@ Open Systems Interconnection (OSI) Model:
 		This layer manages sessions between applications. Establishing, maintaining and terminating connections 
 	Presentation Layer (Layer 6):
 		Data Encryptions and compression protocols operate at this layer 
-		This layer acts as a translator between the application layer and network formats. Handling data representation, ensuring readabi
-	
+		This layer acts as a translator between the application layer and network formats. Handling data representation, ensuring readability of data between the layers 
+	Application Layer (Layer 7):
+		Protocols:
+			Hypertext Transfer Protocol (HTTPS(Secure)) - web browsing 
+			File Transfer Protocol (FTP) - files
+			Simple Mail Transfer Protocol (SMTP) - email
+			DNS ( Domain Name System) - domain names to IP addresses
+		This layer is the end-sure interaction layer, enabling basic operations 
+
+The Transmission Control Protocol / Internet Protocol (TCP / IP ) Model:
+	Link Layer: Made of of layers 1/2 of the OSI
+	Internet Layer - Network Layer OSI // operate Internet Control Message Protocol ( ICMP )
+	Transport Layer - Transport Layer OSI
+	Application Layer - 5,6,7 Layers of OSI
+
+The TCP / IP models is the backbone of network communications, while the OSI is more of a way of understanding the TCP / IP model better 
+
+Transmittion
