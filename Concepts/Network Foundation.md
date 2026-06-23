@@ -79,4 +79,10 @@ Network Media - Cables, protocols, firewall
 
 Servers - Web Servers, File Servers, Mail Servers, Database Servers 
 
-Software Firewalls - installed on individual 
+Software Firewalls - installed on individual computers, ( host based firewalls) monitoring incoming and outgoing traffic and blocking any unwanted traffic 
+
+Server - a computer that provides // or houses services that it provided over the network to other computers 
+
+# Network Communication 
+
+Media Access Control (MAC) Address - unique identifier assigned to the Network Interface Card (NIC) device, allowing it to 
