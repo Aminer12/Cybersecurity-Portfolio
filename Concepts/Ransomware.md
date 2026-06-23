@@ -1,3 +1,6 @@
+Lessons:
+	HTB -Introduction to Information Security 
 
-compromise systems and data, making them inaccessible. Then demand a ransom payment for access back to the stolen information. 
+
+Compromise systems and data, making them inaccessible. Then demand a ransom payment for access back to the stolen information. 
 

@@ -1,5 +1,5 @@
-
-Lessons: HTB Academy: Introduction to Information Security 
+Lessons:
+	HTB -Introduction to Information Security 
 
 Risk - represents the potential for damage 
 Threat - the cause of that damage 
