@@ -143,3 +143,21 @@ Dynamic Nat - a pool of public address are shared between a pool of private addr
 Port Address Translation (PAT)- most common form - single public address for multiple private address, utilizing ports to distinguish between the different devices 
 
 # Domain Name Systems ( DNS)
+
+Connects domain names like (google.com) to IP address 
+
+DNS Hierarchy:
+Root server 
+Top-level Domains (TLDs) like : .com / .org / .net / .uk
+Second level Domains like : google or amazon
+Subdomains or Hostname like:  www or (account).google.com
+
+https:// www.example.com./home.html
+
+https - scheme
+www - subdomain
+.example- 2nd level domain
+.com-  top level domain 
+./ - root
+home.html -  page name 
+
