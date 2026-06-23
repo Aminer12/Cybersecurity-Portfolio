@@ -85,4 +85,16 @@ Server - a computer that provides // or houses services that it provided over th
 
 # Network Communication 
 
-Media Access Control (MAC) Address - unique identifier assigned to the Network Interface Card (NIC) device, allowing it to 
+Media Access Control (MAC) Address
+	unique identifier assigned to the Network Interface Card (NIC) device, allowing it to be recognized on the local network. 
+	Used when operating at level 2 (Data link layer) to ensure data reaches the correct physical device 
+	Mac Address is 48 bits long, in hexadecimals format // Example: 00:1A:2B:3C:4D:5E 
+	The first 24 bits represent the Organizationally Unique Identifier (OUI) assigned by the manufacture the other 24 are specific to each device 
+
+When sending frames over the network the Address Resolution Protocol (ARP) connects MAC address to IP address bridging the gap between hardware and the internet 
+
+Internet Protocol (IP) Address:
+	a unique label assigned to a device when utilizing an internet protocol for communication. 
+	Functions at the Network Layer (layer 3) 
+	Two version: IPv4 and IPv6 
+		IPv4 consist of 32-bit address space 
