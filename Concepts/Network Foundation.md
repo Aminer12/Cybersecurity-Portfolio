@@ -97,4 +97,17 @@ Internet Protocol (IP) Address:
 	a unique label assigned to a device when utilizing an internet protocol for communication. 
 	Functions at the Network Layer (layer 3) 
 	Two version: IPv4 and IPv6 
-		IPv4 consist of 32-bit address space 
+		IPv4 consist of 32-bit address space, formatted as 4 digits separated by a space 192.168.12.1
+		IPv6  developed to replace IPv4 has 128-bit address, formatted in eight groups of four hexadecimals - 2001:0db8:85e3:0000:8a2e:0370:7334
+	Not permanently assigned to a device, they can change
+
+Ports:
+	A number assigned to a specific service on a network to help with traffic management. 
+	Functions on the Transport layer (layer 4 ) working directly with TCP /UDP 
+	Ports range from 0 - 65535
+	Well Known ports 0 - 1023 are reserved for common or universal protocols and managed by the Internet Assigned Numbers Authority (IANA)
+	Registered Ports 1024 - 49151 not as strictly regulated but still assigned, often associated with companies and software a user may install on their computer 
+	Dynamic / Private Ports (49152 - 65535) - not fixed often used for temporary communication
+	HTTP - port 80
+	HTTPS - 443 
+	
