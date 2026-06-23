@@ -111,3 +111,18 @@ Ports:
 	HTTP - port 80
 	HTTPS - 443 
 	
+
+# Dynamic Host Configuration Protocol (DHCP)
+
+A network management protocol that assigns IP address to devices automatically based on given parameters 
+
+The work : DORA ( Discover, Offer, Request, Acknowledge)
+	DHCP server - device operating and managing the protocol 
+	DHCP client - device connected to the network requesting the IP address 
+	1 (Discover): client broadcast a DHCP discover message to find the server 
+	2 (Offer): Server receives request and responds with an offer 
+	3(Request): client receives the offer and replies with a request message, indicating acceptation
+	4(Acknowledge): Server send acknowledgement message, confirming client configuration 
+
+
+# Network Address Translation (NAT)
