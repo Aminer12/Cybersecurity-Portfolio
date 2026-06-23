@@ -23,3 +23,12 @@ Hybrid Architecture:
 	Combining the two above. Where servers facilitate coordination and authentication while the data is transferred between peers.  
 	Example is like video call software like Zoom, were Zoom coordinates and authenticates. But once the call begins its peer to peer. 
 
+Cloud Architecture:
+	computing infrastructure hosted and operated by a third-party 
+
+Software-Defined Architecture (SDN):
+	a modern network that separates the control plane from the data plane. Instead of relying on hardware to operate both planes. Software is used to control the control plan creating a programmable network environment.
+
+
+# Wireless Networks 
+
