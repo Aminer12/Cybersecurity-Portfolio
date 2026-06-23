@@ -12,6 +12,10 @@ Operational Security (OpSec) - protecting data throughout its lifecycle
 Disaster Recovery (DR) - bringing back online critical parts of the company 
 
 Business Continuity (BC) - having systems in place to maintain continuity during a disaster 
+	Recovery Time Objectives (RTO) 
+	Recovery Point Objectives (RPO)
+
+Identity and Access Management (IAM)
 
 
 
