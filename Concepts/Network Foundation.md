@@ -23,4 +23,11 @@ Often LANs are connected to WANs expanding their reach and communication.
 
 
 
-OSI Mod
+Open Systems Interconnection (OSI) Model:
+	A framework that standardizes interconnection into 7 layers 
+	Physical Layer (Layer 1):
+		physical connection between devices. The hardware like Ethernet cables, hubs, and repeaters 
+	Data Link Layers (Layer 2):
+		This layer represents node to node transfer. It ensures the data being transferred is synchronized, looks for error detection and correction. Devices like switches operate on this layer using Media Access Control (MAC) addresses to identify network devices. 
+	Network Layer (Layer 3):
+		Devices - Routers 
