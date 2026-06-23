@@ -5,6 +5,16 @@ Risk - represents the potential for damage
 Threat - the cause of that damage 
 Vulnerability - how that weakness will allow the threat to happen 
 
+Security by Design - building security into the application as it is built, not afterwards 
+
+Operational Security (OpSec) - protecting data throughout its lifecycle
+
+Disaster Recovery (DR) - bringing back online critical parts of the company 
+
+Business Continuity (BC) - having systems in place to maintain continuity during a disaster 
+
+
+
 Fundamentals:
 	Confidentiality 
 	Integrity 
