@@ -31,3 +31,17 @@ Open Systems Interconnection (OSI) Model:
 		This layer represents node to node transfer. It ensures the data being transferred is synchronized, looks for error detection and correction. Devices like switches operate on this layer using Media Access Control (MAC) addresses to identify network devices. 
 	Network Layer (Layer 3):
 		Devices - Routers 
+		Protocol - internet protocol (IP) addresses for device identification and for determining the most efficient path for data
+		Layer 3 handles packet forwarding, across routers. Responsible for logical addressing and path determination, ensuring the fastest route 
+	Transport Layer (Layer 4):
+		 Protocols - 
+			 Transmission Control Protocol (TCP) - reliable, connection-oriented transmission with error correction 
+			 User Datagram Protocol (UDP) - faster, connectionless communication, no guarantee of delivery 
+		This layer provides end to end communication services for application using one of these protocols 
+	Session Layer (Layer 5):
+		Application Programming Interfaces (APIs) operate on this layer 
+		This layer manages sessions between applications. Establishing, maintaining and terminating connections 
+	Presentation Layer (Layer 6):
+		Data Encryptions and compression protocols operate at this layer 
+		This layer acts as a translator between the application layer and network formats. Handling data representation, ensuring readabi
+	
