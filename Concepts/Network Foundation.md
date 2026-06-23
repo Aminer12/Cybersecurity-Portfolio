@@ -60,4 +60,10 @@ The Transmission Control Protocol / Internet Protocol (TCP / IP ) Model:
 
 The TCP / IP models is the backbone of network communications, while the OSI is more of a way of understanding the TCP / IP model better 
 
-Transmittion
+Transmission:
+	digital - the most common -using bits to transfer data cover the network
+	Modes:
+		Simplex - one way communication - keyboard to computer 
+		Half-plex - two ways but one at a time - walkie-talkies 
+		Full-plex - two way communication - phones 
+
