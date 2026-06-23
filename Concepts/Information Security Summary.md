@@ -28,4 +28,11 @@ CIA Triad:
 	Availability 
 
 Tools:
-	
+	Firewalls - controlling incoming and outgoing network traffic
+	Intrusion Detection / Prevention Systems (IDS / IPS) - Monitor and block suspicious activities 
+	Security Information and Event Management (SIEM) system - Collect and analyze security event data 
+	Vulnerability Scanner - Identify potential weakness 
+	Penetration test tools - Simulate attacks 
+	Encryption tools - Protect data confidentiality and integrity 
+	Access control system - Manage user permissions and authentication
+	Security awareness training platforms - Educate users 
