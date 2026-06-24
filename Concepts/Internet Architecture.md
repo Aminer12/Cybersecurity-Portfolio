@@ -51,3 +51,17 @@ Frequency bands:
 
 # Network Security 
 
+CIA Triad:
+	Confidentiality - only authorized user see the correct data
+	Integrity - data remains accurate and unaltered 
+	Availability - Network resources are accessible when needed 
+
+Firewalls:
+	a hardware or software component that tracks and blocks incoming and outgoing data based on a access control list (based on IP addresses, ports or protocols) in a process known as traffic filtering 
+	Packet Filtering Firewall - operate lv 3/4, uses access control list 
+	Stateful Inspection Firewall - tracks the state of network connections // more advanced than Filtering Firewalls / matching inbound and outbound data before authorization 
+	Application Layer Firewall (proxy firewall) - Layer 7 // inspects content in traffic and block malicious request 
+	Next-Generation Firewall (NGFW) combination of stateful inspection and proxy firewall 
+
+Intrusion Detection and Prevention Systems (IDS / )
+
