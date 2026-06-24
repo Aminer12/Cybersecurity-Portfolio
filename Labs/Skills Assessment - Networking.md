@@ -4,6 +4,7 @@ Lessons:
 
 Step 1 - open bash script terminal
 
+
 Command: ifconfig -a 
 	ifconfig is used to configure network interfaces and display their current status 
 	-a allows us to see all interfaces, including those down 
@@ -58,4 +59,31 @@ Command in second terminal: nc -v <Target IP> 49704
 Command in first terminal: LIST[Ctrl +++] 
 	This will transfer the a list of available files to our computer 
 
-From the trans
+From the transfer list we can see there is a document called  - Note-From-IT.txt 
+
+At this point we have only transferred the list 
+
+If to much time has passed you will have to re-establish connection to the FTP server repeating the steps of signing in, finding the dynamic port (large number), opening up terminal two and establishing a connection before running this command. 
+
+Command in first Terminal: RETR <File name> (Note-From-IT.txt)[Ctrl +++]
+	sends the file over to our computer and opens it
+
+
+The file shows us that we can connect to the HTTP server using a - User Agent: Server Administrator 
+
+command: nc -v <target IP> 80 (HTTP)
+	to connect to the open port 
+
+command
+GET / HTTP/1.1[enter] 
+Host: <target ip>[enter] 
+User-Agent: Server Administrator[enter][enter]
+
+This opens up the web server and reads its contents to the terminal 
+
+GET / - HTTP request for the home page 
+HOST - which host is requesting access to the server 
+User-Agent - indicates what agent is making the web request 
+
+
+Overview: This walk through lab has show basic network connection and analysis commands, as well as a basic exploitation of 
