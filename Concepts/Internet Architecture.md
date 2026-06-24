@@ -32,3 +32,14 @@ Software-Defined Architecture (SDN):
 
 # Wireless Networks 
 
+a connection of devices using signals instead of wires
+
+wireless router - both provides connection within a range and directs data between devices 
+
+Mobile Hotspot:
+	a sharing of cellular data between devices 
+
+Cell Tower:
+	a structure holding antennas and other electronic communication equipment that creates a cellular network 
+	Linked through Base Station Controllers (BSC) 
+	And
