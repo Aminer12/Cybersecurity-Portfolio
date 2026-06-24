@@ -12,6 +12,7 @@ Local Area Networks (LANs):
 	small organization or single person
 	high data transfer speeds 
 	using a combination of wired and wireless connections
+	comply with RFC 1918 standards 
 
 Wide Area Networks (WANs):
 	Large area, multiple cities, countries 
@@ -22,6 +23,22 @@ Wide Area Networks (WANs):
 
 Often LANs are connected to WANs expanding their reach and communication.
 
+Virtual Private Networks (VPN):
+	Site-to-Site VPN - Both clients are Networking devices like Firewalls or Routers, this is often used to connect different company networks over the internet 
+	Remote Access VPN - creating a virtual interface that the behaves as part of the network. 
+		Important to look at the routing numbers used 
+		If route is only for specific networks like 10.10.101.0/24 then its called Split-Tunnel VPN - meaning the internet connection is not going out the VPN 
+	SSL VPN - a web-browser based VPN 
+
+Global Area Networks (GAN):
+	Things like the internet 
+	often utilizing fiber optics and undersea cables or satellites 
+
+Metropolitan Area Networks (MAN):
+	a broadband network servicing other LANs within a geographic range 
+
+Personal Area Network (PAN) and Wireless Personal Area Network (WPAN):
+	a temp Network made up of smartphones connected together, allowing for exchange of data 
 
 
 Open Systems Interconnection (OSI) Model:
@@ -83,6 +100,9 @@ Servers - Web Servers, File Servers, Mail Servers, Database Servers
 Software Firewalls - installed on individual computers, ( host based firewalls) monitoring incoming and outgoing traffic and blocking any unwanted traffic 
 
 Server - a computer that provides // or houses services that it provided over the network to other computers 
+
+# Networking Topologies 
+
 
 # Network Communication 
 
