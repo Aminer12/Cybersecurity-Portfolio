@@ -63,5 +63,16 @@ Firewalls:
 	Application Layer Firewall (proxy firewall) - Layer 7 // inspects content in traffic and block malicious request 
 	Next-Generation Firewall (NGFW) combination of stateful inspection and proxy firewall 
 
-Intrusion Detection and Prevention Systems (IDS / )
+pfSense - open source firewall software for practice 
 
+Intrusion Detection and Prevention Systems (IDS / IPS):
+	IDS monitors traffics and produces an alert when something is suspicious, but does not block 
+	IPS does the same thing but does block the activity 
+	relying on 
+	Signature-based detection - matching traffic against known exploits 
+	Anomaly-based detection - detecting unusual activity compared to normal operations 
+	Network-Based IDS / IPS (NIDS / NIPS) hardware or software at a strategic point to inspect traffic 
+	Host-based IDS / IPS (HIDS / HIPS) runs on individual host monitoring traffic 
+
+
+Suricata software for IDS / IPS 
