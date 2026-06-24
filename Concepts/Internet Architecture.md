@@ -42,4 +42,12 @@ Mobile Hotspot:
 Cell Tower:
 	a structure holding antennas and other electronic communication equipment that creates a cellular network 
 	Linked through Base Station Controllers (BSC) 
-	And
+	And connected to the core network over fiber optic cables 
+
+Frequency bands:
+	2.4 Ghz : older Wi-Fi standards (802.11b/g/n) better at getting through objects but more prone to interference 
+	5 Ghz - newer Wi-Fi (802.11a /n/ ac/ ax) faster speed shorter range
+	Cellular bands (4g / 5g) (700 Mhz - 2.6 Ghz // up to 28 Ghz and beyond )
+
+# Network Security 
+
