@@ -18,6 +18,7 @@ Wide Area Networks (WANs):
 	a collection of owners 
 	lower speed because of distance 
 	a combination of fiber optics or satellites, telecommunication lines 
+	often using the BGP routing protocol 
 
 Often LANs are connected to WANs expanding their reach and communication.
 
