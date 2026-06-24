@@ -26,3 +26,15 @@ command: ping -c 4 <target ip>
 	the -c 4 represent the count (number of pings ) if not specified Linux will try until Ctrl + C is used to terminate it. 
 	TTL or Time to live is the number of hops it took to reach the destination 
 	time - tells us how much latency there is on the network 
+
+command nmap <target ip>:
+	shows use the open ports on a target machine
+	result show open ports on the machine 
+	Port 21 used for File Transfer Protocol 
+	Port 80 for HTTP is going to be our focus 
+
+command nmap -p21,80 -sC -sV 10.129.59.132
+	This scan operates at level 4  by adding -sV (version scan) and -sC (default scripts), nmap uses protocols on level 7 
+	The lack of information on port 80 shows their may be a request filtering in place 
+	shows data about port 21 
+	showing that anonymous ftp is enabled - meaning anyone can connect 
