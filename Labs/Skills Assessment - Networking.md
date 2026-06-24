@@ -86,4 +86,4 @@ HOST - which host is requesting access to the server
 User-Agent - indicates what agent is making the web request 
 
 
-Overview: This walk through lab has show basic network connection and analysis commands, as well as a basic exploitation of 
+Overview: This walk through lab has show basic network connection and analysis commands, as well as a basic exploitation of FTP connected to HTTPs web server. 
