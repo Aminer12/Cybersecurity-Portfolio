@@ -38,3 +38,12 @@ command nmap -p21,80 -sC -sV 10.129.59.132
 	The lack of information on port 80 shows their may be a request filtering in place 
 	shows data about port 21 
 	showing that anonymous ftp is enabled - meaning anyone can connect 
+
+Command nc <target ip> 21 (port)
+	netcat is used to make raw TCP/ UDP connections, compared to something specific to FTP 
+	result - 220 Microsoft FTP service - this results means we have gained access 
+
+Command: USER anonymous (Ctrl +v Ent, Ent) PASS (anything) ( Ctrl + + + ) PASV (CTRL + + + )
+	result 331 access allowed 
+		230 user logged in 
+		227 Entering passive mode 
