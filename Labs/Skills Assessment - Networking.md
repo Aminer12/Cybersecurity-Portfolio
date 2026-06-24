@@ -46,4 +46,16 @@ Command nc <target ip> 21 (port)
 Command: USER anonymous (Ctrl +v Ent, Ent) PASS (anything) ( Ctrl + + + ) PASV (CTRL + + + )
 	result 331 access allowed 
 		230 user logged in 
-		227 Entering passive mode 
+		227 Entering passive mode (10,129,233,197,194,40)
+
+The last two numbers seen in passive mode will be used to determine the port we are going to connect to in another terminal. We care doing this so that we can transfer files from the target to our computer 
+
+port number  = 194 * 256 +40 = 49704 
+
+Command in second terminal: nc -v <Target IP> 49704 
+	This should show that we have connected 
+
+Command in first terminal: LIST[Ctrl +++] 
+	This will transfer the a list of available files to our computer 
+
+From the trans
