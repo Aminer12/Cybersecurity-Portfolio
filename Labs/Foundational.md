@@ -30,7 +30,8 @@ Check connection:
 
 Scan for open ports:
 	Command: nmap -sV
-	result:![[Pasted image 20260625160957.png]]
+	result:
+	![](../assets/Pasted%20image%2020260625164914.png)
 	We can see port 21 is open running a file transfer protocol // Version vsftpd 3.0.3 
 quick google search shows their is an DoS exploit - CVE-2021-30047
 
@@ -41,12 +42,12 @@ Connecting to FTP Server:
 
 Looking around:
 	command: ls
-		![[Pasted image 20260625162835.png]]
-		see the flag.txt file need to transfer it 
+	![](../assets/Pasted%20image%2020260625165006.png)
+	see the flag.txt file need to transfer it 
 
 Transfer document:
 	Commands: get flag.txt // quite // cat flag.txt C
-	![[Pasted image 20260625163125.png]]
+	![](../assets/Pasted%20image%2020260625165030.png)
 
 Takeaway Notes:
 	Try username anonymous first with no password when connecting 
