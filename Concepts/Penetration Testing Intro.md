@@ -43,4 +43,25 @@ Exploitation Phase:
 	actively exploit weaknesses found in the system. Important to document all the actions you are taking 
 
 Post-Exploitation Phase:
-	privilege escalation // lateral movements throughout the network // data exfiltration testing 
+	privilege escalation // lateral movements throughout the network // data exfiltration testing and maintaining access 
+
+Lateral Movement Phase:
+	moving throughout the network looking for other potential weakness and accesses. 
+
+Proof of Concepts
+	creating detailed documentation and evidence // establishing repeatable steps to show the exploits and vulnerabilities 
+	creating examples, scrips, code that showcase the exploitation process 
+
+Post-Engagement Phase:
+	transforming the information found into actionable information for the client 
+
+Remediation Support and Retesting 
+	helping the client and possible re-testing to see that the changes worked 
+
+# Methodologies and Frameworks: 
+
+Penetration Testing Execution Standard (PTES)
+
+Technical Guide to Information Security Testing and Assessment (NIST)
+
+O
