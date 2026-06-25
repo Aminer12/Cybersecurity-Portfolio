@@ -23,3 +23,5 @@ Learned Commands:
 # lab: Fawn 
 [Hack The Box :: Fawn Machine](https://app.hackthebox.com/machines/Fawn?sort_by=created_at&sort_type=desc)
 
+Target IP: 10.129.1.14
+
