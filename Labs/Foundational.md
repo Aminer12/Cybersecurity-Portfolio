@@ -1,6 +1,5 @@
 
-HTB Labs: foundational labs selection: Each lab was completed by following a write-up guide following along with the guide. 
-
+HTB Labs: foundational labs selection: 
 Lab: Meow
 	Target IP : 10.129.1.17
 	Test Communication 
