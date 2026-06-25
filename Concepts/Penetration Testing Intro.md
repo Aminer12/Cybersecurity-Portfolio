@@ -1,4 +1,5 @@
-
+Lessons:
+	Introduction to Penetration Testing 
 # test proceedings 
 Reconnaissance - gathering information on the target 
 Vulnerability Assessment - using tools to spot weak points 
@@ -16,3 +17,12 @@ Operational / Financial impact risk assessment
 black-box - no prior information 
 White-box - full access 
 gray box - limitations on information 
+
+# Areas and Domain of Testing 
+	Network Infrastructure 
+	Web Applications 
+	Mobile Applications 
+	Cloud Infrastructure 
+	Physical // Wireless // Software Security
+
+
