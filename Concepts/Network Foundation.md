@@ -121,6 +121,14 @@ Tree:
 # Proxies:
 When a device or service sits in the middle of a connection and acts as a mediator. 
 	Without out the ability to inspect the traffic, the mediator is only a gateway (not a proxy)
+	Operating at level 7 
+Dedicated Proxy / Forward Proxy:
+	client makes a request and the computer carries it out. 
+
+Reverse Proxy:
+	similar as a forward proxy but focuses on incoming traffic instead 
+
+non - Transparent Proxy:
 	
 # Network Communication 
 
