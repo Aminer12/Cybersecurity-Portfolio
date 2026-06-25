@@ -64,4 +64,22 @@ Penetration Testing Execution Standard (PTES)
 
 Technical Guide to Information Security Testing and Assessment (NIST)
 
-O
+Open Web Application Security Project (OWASP) - used in web application testing 
+
+MITRE ATT&CK
+
+Personal Development:
+	Start with established frameworks
+	Learn and practice notetaking properly 
+	Practice and Improve problem solving approach 
+	Document successful techniques 
+	Incorporate tools and scripts 
+	Custom checklist 
+
+# Domains of Testing:
+
+Web Applications Testing:
+	Burp Suite Professional // OWASP ZAP - essential tools 
+
+Network Security Testing:
+	Nmap // Nessus or OpenVAS // metasploits 
