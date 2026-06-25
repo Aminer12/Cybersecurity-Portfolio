@@ -26,3 +26,21 @@ gray box - limitations on information
 	Physical // Wireless // Software Security
 
 
+# Structure 
+
+Pre-Engagement Phase
+	Defining the scope, establishing timelines, and systems and networks being tested 
+	Rules of Engagement (RoE)
+
+Information Gathering Phase
+	Passive Reconnaissance - in direct gathering of information, using open source information. Designed to leave no trace 
+	Active Reconnaissance - direct interactions and scanning of the target systems 
+
+Vulnerability Assessment Phase
+	analyze the information gathered and determining paths to attack
+
+Exploitation Phase:
+	actively exploit weaknesses found in the system. Important to document all the actions you are taking 
+
+Post-Exploitation Phase:
+	privilege escalation // lateral movements throughout the network // data exfiltration testing 
