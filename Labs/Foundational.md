@@ -21,3 +21,6 @@ Learned Commands:
 	ls - lists files and directories in Linux 
 	cat - is used to read, concatenate and write file contents 
 
+# lab: Fawn 
+[Hack The Box :: Fawn Machine](https://app.hackthebox.com/machines/Fawn?sort_by=created_at&sort_type=desc)
+
