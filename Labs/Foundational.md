@@ -20,3 +20,4 @@ Lab: Meow
 Learned Commands:
 	ls - lists files and directories in Linux 
 	cat - is used to read, concatenate and write file contents 
+
