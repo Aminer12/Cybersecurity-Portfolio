@@ -25,3 +25,11 @@ Learned Commands:
 
 Target IP: 10.129.1.14
 
+Check connection: 
+	Command ping 10.129.1.14 // good connection
+
+Scan for open ports:
+	Command: nmap -sV
+	result:![[Pasted image 20260625160957.png]]
+	We can see port 21 is open running a file transfer protocol // Version vsftpd 3.0.3 
+quick google search shows their is an DoS exploit - CVE-2021-30047
