@@ -53,6 +53,8 @@ Takeaway Notes:
 	Commands to remember for FTP: help - to understand command options // ls -  to look around // quit - to get off the FTP server // get - to transfer a file // ftp -? for client help menu 
 	Linux command: cat - to read document on terminal 
 
+Remedial action:
+	Set up a better username for the FTP server, and a password. 
 
 # LAB: Dancing 
 [Hack The Box :: Dancing Machine](https://app.hackthebox.com/machines/Dancing?sort_by=created_at&sort_type=desc)
