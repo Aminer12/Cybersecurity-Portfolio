@@ -103,7 +103,25 @@ Server - a computer that provides // or houses services that it provided over th
 
 # Networking Topologies 
 
+Point to Point:
+	aa direct connection between two devices
+Bus:
+	A connecting median - a bus - that connects multiple devices together, but does not have a central network component 
+Star:
+	Has a central network component (router) that all the host are connected to. This central piece forwards packets 
+Ring:
+	A duel connection of wires between host of facilitate incoming and outgoing data. 
+	Does not require a central component 
+Mesh:
+	Fully Meshed - host directly connected 
+	Partially Meshed - only a single connection on endpoints to the main network 
+Tree:
+	
 
+# Proxies:
+When a device or service sits in the middle of a connection and acts as a mediator. 
+	Without out the ability to inspect the traffic, the mediator is only a gateway (not a proxy)
+	
 # Network Communication 
 
 Media Access Control (MAC) Address
