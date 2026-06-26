@@ -74,3 +74,14 @@ Scan:
 		-sC : running default scripts
 		![](../assets/Pasted%20image%2020260626133744.png)
 		port 445 shows Microsoft-ds is open. Research show this is a Server message Block (SMB protocol ) used in file sharing 
+
+Connecting to SMB Server:
+	Command: smbclient -L 10.129.1.12:
+		-L : list 
+		There was no password when requested 
+		This command represent the correct command sequence after many failed attempts 
+		![](../assets/Pasted%20image%2020260626135834.png)
+		smbclient -? : for help option
+
+Connecting to WorkShares folder:
+	Command: 
