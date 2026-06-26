@@ -72,3 +72,5 @@ Scan:
 		-p- : all ports 
 		-sV : determine service/version info
 		-sC : running default scripts
+		![](../assets/Pasted%20image%2020260626133744.png)
+		port 445 shows Microsoft-ds is open. Research show this is a Server message Block (SMB protocol ) used in file sharing 
