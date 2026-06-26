@@ -104,4 +104,4 @@ Flag:
 Overview:
 	Combining Linux terminal commands with windows commands. 
 	Important to look at the examples when using the help command dealing with SMB server and connecting to it. 
-	Did require looking at the worksheet to solve. 
+	Did require looking at the worksheet to solve. Got stuck on how to access the SMB server on my own. 
