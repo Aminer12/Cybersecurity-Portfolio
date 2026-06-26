@@ -60,4 +60,15 @@ Remedial action:
 # LAB: Dancing 
 [Hack The Box :: Dancing Machine](https://app.hackthebox.com/machines/Dancing?sort_by=created_at&sort_type=desc)
 
+Machine - Windows 
+Target IP: 10.129.1.12
 
+Test Connection:
+	Command ping 10.129.1.12
+	Result: Good connection 
+
+Scan:
+	Command: nmap -p- -sV - sC 10.129.1.12
+		-p- : all ports 
+		-sV : determine service/version info
+		-sC : running default scripts
