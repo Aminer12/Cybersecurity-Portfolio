@@ -84,3 +84,16 @@ Web Applications Testing:
 
 Network Security Testing:
 	Nmap // Nessus or OpenVAS // metasploits 
+
+
+# Note Taking 
+
+Commands Used // Results, including errors 
+
+Interesting information:
+	What you found 
+	Why you thought it was important 
+	What made you decide to look into it further
+
+Take screenshots and include dates and times for everything you do. 
+
