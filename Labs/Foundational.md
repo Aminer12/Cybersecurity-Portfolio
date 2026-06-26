@@ -83,5 +83,25 @@ Connecting to SMB Server:
 		![](../assets/Pasted%20image%2020260626135834.png)
 		smbclient -? : for help option
 
-Connecting to WorkShares folder:
-	Command: 
+Connecting to WorkShares Disk:
+	Command: smbclient //10.129.1.12/WorkShares:
+		![](../assets/Pasted%20image%2020260626140447.png)
+		First on the list is Amy.J which is a directory 
+
+Accessing Amy.J directory:
+	Command: cd Amy.J // ls to look around // get worknotes.txt file
+	![](../assets/Pasted%20image%2020260626140538.png)
+	opened up the worknotes.txt file - does not seem important just text information
+	![](../assets/Pasted%20image%2020260626140808.png)
+
+Accessing James.P Directory:
+	Commands: cd James.P // ls // get flag.txt 
+	![](../assets/Pasted%20image%2020260626141050.png)
+
+Flag:
+	![](../assets/Pasted%20image%2020260626141211.png)
+
+Overview:
+	Combining Linux terminal commands with windows commands. 
+	Important to look at the examples when using the help command dealing with SMB server and connecting to it. 
+	Did require looking at the worksheet to solve. 
