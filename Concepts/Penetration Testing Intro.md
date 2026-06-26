@@ -1,5 +1,6 @@
 Lessons:
 	Introduction to Penetration Testing 
+	Pentest in a Nutshell
 # test proceedings 
 Reconnaissance - gathering information on the target 
 Vulnerability Assessment - using tools to spot weak points 
