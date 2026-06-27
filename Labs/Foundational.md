@@ -116,3 +116,10 @@ Additional information - Studying Walkthrough:
 	IPC$ - The inter-process communication share. Used for inter-process communication via named pipes and is not part of the file system.
 	WorkShares - custom share 
 
+# Lab: Redeemer:
+https://app.hackthebox.com/machines/Redeemer?tab=play_machine
+community rating - very easy 
+Machine - Linux
+Date: 2026-06-27
+
+
