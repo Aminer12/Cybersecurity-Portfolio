@@ -107,4 +107,12 @@ Overview:
 	Did require looking at the worksheet to solve. Got stuck on how to access the SMB server on my own. 
 
 Additional information - Studying Walkthrough:
-	
+	SMB runs at the Application or Presentation Layer of the OSI model - relying on NetBIOS over TCP/IP (NBT) at the transport layer. Which is why you will often see both operating at the same time 
+	SMB-enabled storage on a network is called a - Share 
+	SMB connections always require a username for authentication - if no username is given then the local account username will be given instead 
+	--------
+	ADMIN$ - Administrative shares are hidden networks shares created by the Windows NT family of operating systems. They can be disabled but not deleted 
+	C$ - Administrative shares - where the operating system is hosted 
+	IPC$ - The inter-process communication share. Used for inter-process communication via named pipes and is not part of the file system.
+	WorkShares - custom share 
+
