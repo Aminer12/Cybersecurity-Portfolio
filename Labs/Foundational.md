@@ -120,6 +120,8 @@ Additional information - Studying Walkthrough:
 https://app.hackthebox.com/machines/Redeemer?tab=play_machine
 community rating - very easy 
 Machine - Linux
-Date: 2026-06-27
+Date: 2026-07-02
+
+
 
 
