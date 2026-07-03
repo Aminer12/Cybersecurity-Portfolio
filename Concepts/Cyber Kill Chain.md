@@ -34,3 +34,13 @@ The malicious activity gets activated in this stage.
 
 establishing continued access to the target system. Gaining or creating an access point or backdoor into the system. 
 
+possible privilege escalation tactics can be taken at this time. 
+
+# Command and Control (C2)
+
+establishing the ability to send commands to the system. Ability to send remote command and execute the command on the machine 
+
+# Actions on Objectives 
+
+The attacker is able to carryout the original plan against the target. Having now established all the pre-requisites to carry out the attack. 
+
