@@ -1,4 +1,5 @@
-
+Lessons:
+	Lets Defend
 ATT&CK - Adversarial Tactics, Techniques and Common Knowledge 
 
 Enterprise Matrix 
@@ -22,3 +23,10 @@ The methods used by attackers separated by tactics
 # Mitigations 
 
 Actions to be taken to reduce the possibility of an attack. 
+
+# Groups
+A collection of threat actor association, and any information, software, or operation connected to them. 
+
+# Software 
+
+Software used in attacks 
