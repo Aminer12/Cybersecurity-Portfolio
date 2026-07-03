@@ -19,3 +19,6 @@ express the purpose of the cyber attack and the reason for the action
 # Techniques and Sub-Techniques 
 The methods used by attackers separated by tactics 
 
+# Mitigations 
+
+Actions to be taken to reduce the possibility of an attack. 
