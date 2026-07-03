@@ -24,3 +24,13 @@ tools are used or scripter written / attack is generated at this stage. But the 
 
 # Delivery 
 
+The attack is delivered. The first interaction between the target and attacker. 
+
+# Exploitation
+
+The malicious activity gets activated in this stage. 
+
+# Installation
+
+establishing continued access to the target system. Gaining or creating an access point or backdoor into the system. 
+
