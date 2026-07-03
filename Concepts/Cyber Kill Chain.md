@@ -17,3 +17,10 @@ Chain Steps
 
 Passive - collecting information without directly interacting with the target - opensource information
 Active - engaging directly with the target - nmap - 
+
+# Weaponization 
+
+tools are used or scripter written / attack is generated at this stage. But the attack has not yet started 
+
+# Delivery 
+
