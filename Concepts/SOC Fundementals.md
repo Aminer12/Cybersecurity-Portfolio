@@ -6,3 +6,10 @@ Date: 2026-07-03
 SOC - Security Operations Center
 MSSP - Managed Security Service Provider 
 SIEM - Security Information and Event Management 
+EDR - Endpoint Detection and Response 
+
+Common EDR 
+	CarbonBlack
+	SentinelOne
+	FireEye HX
+
