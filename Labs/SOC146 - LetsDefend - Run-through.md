@@ -14,3 +14,4 @@ Taking ownership and starting Case Report
 - What is the recipient Address? - lars@letsdefend.io
 - Is the mail content suspicious? - 
 - Are there any attachements? - yes 
+
