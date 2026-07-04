@@ -3,6 +3,9 @@ Lessons:
 
 Linux philosophy - simplicity, modularity, and openness. Creating programs that complete one task well, that can be combined to solve complex problems. 
 
+# OverTheWire: Bandits 
+
+
 ## Principles 
 
 Everything is a file - All system hardware, processes, and network connections are represented as files, meaning they can be manipulated using the same basic tools 
@@ -105,3 +108,7 @@ Useful resource - https://explainshell.com/
 |`lsusb`|Lists USB devices|
 |`lsof`|Lists opened files.|
 |`lspci`|Lists PCI devices
+### SSH Logging 
+
+ssh htb-students@[IP Address]
+
