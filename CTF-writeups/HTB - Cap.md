@@ -47,3 +47,8 @@ This is because the data is being transfer unencrypted
 
 Username: nathan
 Password: Buck3tH4TF0RM3!
+
+### FTP 
+Using the username and password I connected to the FTP server. Once connected I used the ls command to see what was available. There was only one text file (user.txt) which we transferred using get. In an additional terminal I opened the user.txt file, which had the user flag. 
+
+![](../assets/Pasted%20image%2020260704151505.png)
