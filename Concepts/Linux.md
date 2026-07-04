@@ -188,3 +188,5 @@ ssh htb-students@[IP Address]
 |`wc`|Prints newline, word, and byte counts for a given input.|
 |`chmod`|Changes permission of a file or directory.|
 |`chown`|Changes the owner and group of a file or directory.|
+## Navigation:
+
