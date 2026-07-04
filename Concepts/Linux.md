@@ -46,7 +46,7 @@ Configuration data stored in a text file - all data stored in files
 ## Prompt 
 
 Format breakdown:
-<username>@<hostname><current working directory>$ <- the dollar sign represents a user >
+username @ hostname - current working directory>$ <- the dollar sign represents a user >\
 
 home directory represented by <~> tilde and is the default folder when logging on
 [~] 
@@ -73,7 +73,7 @@ Useful links:
 	Powerline github
 
 
-Commands
+# Commands
 
 ls - list the files and directories within the current folder 
 
@@ -81,8 +81,27 @@ man ls - (man) displays the manual pages for commands and provides detailed info
 
 ls --help  or -h  // to get additional information, -h for a short version, --help for a complete breakdown 
 
-apropos <keyword> searching for the description within a manual page 
+apropos - keyword  searching for the description within a manual page 
 
 Useful resource - https://explainshell.com/
 
+## System Information 
 
+|**Command**|**Description**|
+|---|---|
+|`whoami`|Displays current username.|
+|`id`|Returns users identity|
+|`hostname`|Sets or prints the name of current host system.|
+|`uname`|Prints basic information about the operating system name and system hardware.|
+|`pwd`|Returns working directory name.|
+|`ifconfig`|The ifconfig utility is used to assign or to view an address to a network interface and/or configure network interface parameters.|
+|`ip`|Ip is a utility to show or manipulate routing, network devices, interfaces and tunnels.|
+|`netstat`|Shows network status.|
+|`ss`|Another utility to investigate sockets.|
+|`ps`|Shows process status.|
+|`who`|Displays who is logged in.|
+|`env`|Prints environment or sets and executes command.|
+|`lsblk`|Lists block devices.|
+|`lsusb`|Lists USB devices|
+|`lsof`|Lists opened files.|
+|`lspci`|Lists PCI devices
