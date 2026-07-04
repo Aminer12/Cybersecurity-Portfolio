@@ -173,3 +173,12 @@ Command: KEYS '*'
 Command: GET "flag"
 ![](../assets/Pasted%20image%2020260704120902.png)
 
+### Overview:
+Was happy to be able to complete this Lab without needed any additional help outside or googling the redis commands. I wish I understood exactly what the flaw was with the server in the lab. 
+
+### Official Writeup look through:
+
+Redis - Remote Dictionary Server // storing its data in key-value pairs like a dictionary. Used for short term storage. 
+
+redis-cli --help : Command for a list of descriptions 
+
