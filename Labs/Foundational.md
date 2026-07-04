@@ -138,11 +138,12 @@ Once connected to a Redis server, which command is used to obtain the informatio
 
 What is the version of the Redis server being used on the target machine? 5.0.7
 
-Which command is used to select the desired database in Redis? 
+Which command is used to select the desired database in Redis? -SELECT 
 
-How many keys are present inside the database with index 0? 
+How many keys are present inside the database with index 0? - 4 keys 
 
 Which command is used to obtain all the keys in a database?
+GET "flag"
 
 ### Testing Connection:
 Target IP Address: 10.129.136.187
@@ -163,4 +164,12 @@ Command: redis-cli -h 10.129.136.187 -p 6379
 ![](../assets/Pasted%20image%2020260704114735.png)
 
 Command: INFO - provides tons of information on the server. Some things I believe to be important is the version: 5.0.7 // one client // keys = 4 
+
+Using the keys command we can see the various database on the server. This shows that number 2 has a flag associated to it. 
+
+Command: KEYS '*'
+![](../assets/Pasted%20image%2020260704120327.png)
+
+Command: GET "flag"
+![](../assets/Pasted%20image%2020260704120902.png)
 
