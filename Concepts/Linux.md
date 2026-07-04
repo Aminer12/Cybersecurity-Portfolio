@@ -46,6 +46,25 @@ Configuration data stored in a text file - all data stored in files
 ## Prompt 
 
 Format breakdown:
-<username>@<hostname><current working directory>$ 
+<username>@<hostname><current working directory>$ <- the dollar sign represents a user 
 
-home directory represented by <~> tilde and is the default 
+home directory represented by <~> tilde and is the default folder when logging on
+[~] 
+
+if we switch over to the root user the dollar sign $ turns to a Hash # 
+
+The prompt can be customized in the configuration file<  .bashrc >
+	Special characters 
+	\d - Date (Mon Feb 6 )
+	\D{%Y-%m-%d} - date (YYYY-MM-DD)
+	\H - Full hostname
+	\j - Number of jobs managed by the shell 
+	\n - newline 
+	\r - Carriage return 
+	\s - Name of the shell 
+	\t - Current time 24-hour (HH:MM:SS)
+	\T - Current time 12-hour (HH:MM:SS)
+	\@ -  Current time 
+	\u - Current username
+	\w -  Full path of the current working directory 
+
