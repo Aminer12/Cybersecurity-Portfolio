@@ -41,4 +41,13 @@ Gmail:
 Outlook:
 	1. Open email
 	2. Then go to file -> Properties -> internet header 
-	3. 
+
+
+# Email Header Analysis 
+Questions 
+	Was the email sent from the correct SMTP server 
+	Are the data "From" and Return-path / reply-to the same 
+
+If a company is using google as their email server, then we would expect that to show in the email. A difference in domain names from what the company is using and the email sent can be signs of a phishing attempt
+
+A difference in the from and return-path can show that someone is trying to pretend the email is coming from a legitimate source, but then the reply is to a malicious account 
