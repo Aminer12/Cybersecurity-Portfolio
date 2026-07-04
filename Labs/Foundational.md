@@ -120,7 +120,31 @@ Additional information - Studying Walkthrough:
 https://app.hackthebox.com/machines/Redeemer?tab=play_machine
 community rating - very easy 
 Machine - Linux
-Date: 2026-07-02
+Date: 2026-07-04
+
+# Machine Questions:
+
+What TCP Port is open on the Machine? - 
+
+Which service is running on the port that is open on the Machine? - 
+
+What type of database is Redis? (In-memory Database // Traditional Database)
+
+Which command-line utility is used to interact with the Redis server? 
+
+Which flag is used with the Redis Command-line utility to specify the hostname? 
+
+Once connected to a Redis server, which command is used to obtain the information and statistics about the Redis Server? 
+
+What is the version of the Redis server being used on the target machine?
+
+Which command is used to select the desired database in Redis? 
+
+How many keys are present inside the database with index 0? 
+
+Which command is used to obtain all the keys in a database?
+
+
 
 
 
