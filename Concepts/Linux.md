@@ -46,7 +46,7 @@ Configuration data stored in a text file - all data stored in files
 ## Prompt 
 
 Format breakdown:
-<username>@<hostname><current working directory>$ <- the dollar sign represents a user 
+<username>@<hostname><current working directory>$ <- the dollar sign represents a user >
 
 home directory represented by <~> tilde and is the default folder when logging on
 [~] 
@@ -71,4 +71,18 @@ The prompt can be customized in the configuration file<  .bashrc >
 Useful links:
 	Bash-prompt-generator
 	Powerline github
+
+
+Commands
+
+ls - list the files and directories within the current folder 
+
+man ls - (man) displays the manual pages for commands and provides detailed information about their usage 
+
+ls --help  or -h  // to get additional information, -h for a short version, --help for a complete breakdown 
+
+apropos <keyword> searching for the description within a manual page 
+
+Useful resource - https://explainshell.com/
+
 
