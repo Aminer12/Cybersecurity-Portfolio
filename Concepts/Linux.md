@@ -277,3 +277,8 @@ VIM:
 |`Replace`|In replace mode, the newly entered text will overwrite existing text characters unless there are no more old characters at the current cursor position. Then the newly entered text will be added.|
 |`Ex`|Emulates the behavior of the text editor [Ex](https://man7.org/linux/man-pages/man1/ex.1p.html), one of the predecessors of `Vim`. Provides a mode where we can execute multiple commands sequentially without returning to Normal mode after each command.|
 ### Finding Files and Directories 
+
+Which - returns the path to a tool - allowing us to see what type of program may be on the system || example - which python
+
+Find - used to find files and folder, but can also act as a filter || find location option 
+	Example: find / =type f -name *.config* -user root -size +20K -newermt 2020-03-03 -exec ls -al {} \; 2> /dev/null 
