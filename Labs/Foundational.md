@@ -134,9 +134,9 @@ Which command-line utility is used to interact with the Redis server? - Redis-cl
 
 Which flag is used with the Redis Command-line utility to specify the hostname? - h 
 
-Once connected to a Redis server, which command is used to obtain the information and statistics about the Redis Server? 
+Once connected to a Redis server, which command is used to obtain the information and statistics about the Redis Server? - INFO
 
-What is the version of the Redis server being used on the target machine?
+What is the version of the Redis server being used on the target machine? 5.0.7
 
 Which command is used to select the desired database in Redis? 
 
@@ -161,3 +161,6 @@ Redis is a in-memory database that stores data in RAM instead of disk, making it
 Attempting to connect to the Redis service
 Command: redis-cli -h 10.129.136.187 -p 6379
 ![](../assets/Pasted%20image%2020260704114735.png)
+
+Command: INFO - provides tons of information on the server. Some things I believe to be important is the version: 5.0.7 // one client // keys = 4 
+
