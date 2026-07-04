@@ -68,3 +68,7 @@ The prompt can be customized in the configuration file<  .bashrc >
 	\u - Current username
 	\w -  Full path of the current working directory 
 
+Useful links:
+	Bash-prompt-generator
+	Powerline github
+
