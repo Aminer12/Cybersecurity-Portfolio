@@ -130,9 +130,9 @@ Which service is running on the port that is open on the Machine? - Redis
 
 What type of database is Redis? (In-memory Database // Traditional Database) - In-memory Database 
 
-Which command-line utility is used to interact with the Redis server? 
+Which command-line utility is used to interact with the Redis server? - Redis-cli 
 
-Which flag is used with the Redis Command-line utility to specify the hostname? 
+Which flag is used with the Redis Command-line utility to specify the hostname? - h 
 
 Once connected to a Redis server, which command is used to obtain the information and statistics about the Redis Server? 
 
@@ -157,4 +157,7 @@ Command: nmap -p- -sC -sV 10.129.136.187
 We can see their is an open tcp port on 6379 running Redis. 
 Redis is a in-memory database that stores data in RAM instead of disk, making it fast. The speed of accessing this information is why it is often used. 
 
-Time to try and connec
+### Redis 
+Attempting to connect to the Redis service
+Command: redis-cli -h 10.129.136.187 -p 6379
+![](../assets/Pasted%20image%2020260704114735.png)
