@@ -11,6 +11,6 @@ Taking ownership and starting Case Report
 - When was it sent? - Jun,13,2021, 02:13 PM
 - What is the Emails SMTP Address? - 24.213.228.54
 - What is the sender Address? - trenton@tritowncomputers.com
-- What is the recipient Address? - lars@letsdefend
+- What is the recipient Address? - lars@letsdefend.io
 - Is the mail content suspicious? - 
-- Are there any attachements? - 
+- Are there any attachements? - yes 
