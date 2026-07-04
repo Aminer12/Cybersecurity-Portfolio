@@ -15,7 +15,10 @@ What is the ID of the PCAP file that contains sensitive data - 0
 
 Which application layer protocol in the pcap file can the sensitive data be found in? - ftp 
 
-We've managed to collect nathan's FTP password, On what other services does this password work? 
+We've managed to collect nathan's FTP password, On what other services does this password work? - SSH
+
+What is the full path to the binary on this machine has special capabilities that can be abused to obtain root privileges? 
+
 ### Connection
 command: ping 10.129.29.176 
 ![](../assets/Pasted%20image%2020260704142913.png)
@@ -52,3 +55,7 @@ Password: Buck3tH4TF0RM3!
 Using the username and password I connected to the FTP server. Once connected I used the ls command to see what was available. There was only one text file (user.txt) which we transferred using get. In an additional terminal I opened the user.txt file, which had the user flag. 
 
 ![](../assets/Pasted%20image%2020260704151505.png)
+
+### SSH
+Using the same username and password I was also able to access the SSH server running. It also contains the same user.txt file as seen in the FTP server 
+
