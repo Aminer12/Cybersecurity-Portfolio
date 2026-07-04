@@ -219,4 +219,33 @@ Cd - can be used to move between directories // Example cd /dev/shm
 
 Clear - can be used to clear the command used 
 
-Ctrl+L = allows you to move up and wo
+Ctrl+L = allows you to move up and down through passed commands 
+
+Ctrl + R = another way to look through command history 
+
+## Files and Directories 
+
+touch /filename/  || Example touch info.txt 
+
+mkdir /name/ || mkdir Storage 
+	 -p allows you to make parent directories automatically || Example mkdir -p Storage/local/user/documents
+
+tree - can be used to look at the structure of your directories || Example: tree . 
+
+
+We can also create files and list the directories we want to store the file in. The dot is used to start in the current directory 
+touch ./Storage/local/user/userinfo.txt
+
+mv file/directory renamed file/directory || the mv command allows us to move and rename files or directories 
+
+Rename File:
+	mv info.txt information.txt 
+
+Move files 
+	mv information.txt Storage/
+
+Copy Files 
+	cp Storage/readme.txt Storage/local/ 
+
+### Editing Files 
+
