@@ -144,6 +144,8 @@ How many keys are present inside the database with index 0?
 
 Which command is used to obtain all the keys in a database?
 
+### Testing Connection:
+Target IP A
 
 
 
