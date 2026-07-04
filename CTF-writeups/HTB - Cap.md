@@ -29,3 +29,5 @@ Following the HTTP open server we get a security dashboard with a username - Nat
 
 The security Snapshot page:
 ![](../assets/Pasted%20image%2020260704143645.png)
+
+We can see that the url has the /data/1 
