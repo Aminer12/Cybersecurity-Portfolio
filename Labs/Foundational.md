@@ -185,4 +185,7 @@ redis-cli --help : Command for a list of descriptions
 
 # Explosion Lab
 
-
+Link - [Hack The Box :: Explosion Machine](https://app.hackthebox.com/machines/Explosion?sort_by=created_at&sort_type=desc)
+Community rating - Very Easy 
+Machine - Windows 
+Date: 
