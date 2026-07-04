@@ -30,3 +30,15 @@ MIME (Multipurpose Internet Mail Extension) version - internet coding standard
 Received - list each mail server the email passed through before arriving - listed in reverse chronological order - the first server is really the last - 
 X-Spam Status - a score on the likelihood the email is spam 
 
+# Access Header 
+
+Gmail:
+	1. Open email 
+	2. click three dots in top right corner 
+	3. select the download message option 
+	4. Open download file with the extension .eml in any notebook application 
+
+Outlook:
+	1. Open email
+	2. Then go to file -> Properties -> internet header 
+	3. 
