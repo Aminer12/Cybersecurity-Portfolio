@@ -30,3 +30,5 @@ The image shown above shows that the zip folder contained three documents:
 Was the device-action allowed - yes 
 
 # check if anyone opened the malicious file
+
+check the endpoint security of the associated device (lars) and see what activity was done around the time of the email (June, 13)
