@@ -9,7 +9,13 @@ How many TCP ports are open? 3
 
 After running a "Security Snapshot", the browser is redirected to a path of the format /something/id, where id represents the id number of the scan. What is the something?  - data 
 
-Are you able to get to other users' scans? 
+Are you able to get to other users' scans?  - yes
+
+What is the ID of the PCAP file that contains sensitive data - 0 
+
+Which application layer protocol in the pcap file can the sensitive data be found in? - ftp 
+
+We've managed to collect nathan's FTP password, On what other services does this password work? 
 ### Connection
 command: ping 10.129.29.176 
 ![](../assets/Pasted%20image%2020260704142913.png)
@@ -30,4 +36,14 @@ Following the HTTP open server we get a security dashboard with a username - Nat
 The security Snapshot page:
 ![](../assets/Pasted%20image%2020260704143645.png)
 
-We can see that the url has the /data/1 
+We can see that the url has the /data/1 - connecting it to Nathan. We can download the information on the page, which produces a pcap (packet capture file) which can be examined in Wireshark. But currently there is no data being shown. 
+
+The question ask if we can switch between user, I attempted this by changing the Id to a different number. After messing around the /data/0 produces a dashboard with packet data. 
+
+After download the packet data and opening the file in Wireshark we can see that within the packet data is the username and password for connecting to the FTP server: 
+
+![](../assets/Pasted%20image%2020260704150558.png)
+This is because the data is being transfer unencrypted 
+
+Username: nathan
+Password: Buck3tH4TF0RM3!
