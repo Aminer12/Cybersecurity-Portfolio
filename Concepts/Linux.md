@@ -190,3 +190,33 @@ ssh htb-students@[IP Address]
 |`chown`|Changes the owner and group of a file or directory.|
 ## Navigation:
 
+pwd - tell you what directory you are currently in 
+
+ls - list all the contents within a directory or files. 
+	-l : for more information on those directories and files - the breakdown of the additional information is show in the table 
+	-la - list all ( shows hidden files )
+	ls -l /directory name/ Example ls -l /var/ to see what files are within this directory 
+
+|**Column Content**|**Description**|
+|---|---|
+|`drwxr-xr-x`|Type and permissions|
+|`2`|Number of hard links to the file/directory|
+|`cry0l1t3`|Owner of the file/directory|
+|`htbacademy`|Group owner of the file/directory|
+|`4096`|Size of the file or the number of blocks used to store the directory information|
+|`Nov 13 17:37`|Date and time|
+|`Desktop`|Directory name|
+
+Some files may be hidden, which is represented by a dot . in front of the file .bashrc for example. These files can be seen using the ls -la (list all) files or directories 
+
+to look at the connects of a directory we do not have to go to it. We can use the ls -l /directory name/
+
+Cd - can be used to move between directories // Example cd /dev/shm
+	cd -  // to jump back to the last directory used 
+	We can double tap shift to have the terminal auto complete our request. 
+	cd . . // the first dot is the current directory, the second dot is the parent directory - another way of jumping back to the parent directory 
+
+
+Clear - can be used to clear the command used 
+
+Ctrl+L = allows you to move up and wo
