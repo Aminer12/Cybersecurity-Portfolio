@@ -56,3 +56,11 @@ A difference in the from and return-path can show that someone is trying to pret
 
 Cisco Talos Intelligence - can help identify ip addresses reputation 
 
+Browserling - to check the web addresses in emails 
+
+Common Sandboxes:
+	VMRay 
+	JoeSandBox
+	Anyrun
+	Hybrid Analysis (Falcon Sandbox)
+
