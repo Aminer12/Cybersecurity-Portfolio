@@ -124,11 +124,11 @@ Date: 2026-07-04
 
 # Machine Questions:
 
-What TCP Port is open on the Machine? - 
+What TCP Port is open on the Machine? - 65534
 
-Which service is running on the port that is open on the Machine? - 
+Which service is running on the port that is open on the Machine? - Redis
 
-What type of database is Redis? (In-memory Database // Traditional Database)
+What type of database is Redis? (In-memory Database // Traditional Database) - In-memory Database 
 
 Which command-line utility is used to interact with the Redis server? 
 
@@ -145,9 +145,16 @@ How many keys are present inside the database with index 0?
 Which command is used to obtain all the keys in a database?
 
 ### Testing Connection:
-Target IP A
+Target IP Address: 10.129.136.187
 
+Command: ping 10.129.136.187
+![](../assets/Pasted%20image%2020260704113351.png)
+Good connection 
 
+### Scanning Target :
+Command: nmap -p- -sC -sV 10.129.136.187
+![](../assets/Pasted%20image%2020260704113553.png)
+We can see their is an open tcp port on 6379 running Redis. 
+Redis is a in-memory database that stores data in RAM instead of disk, making it fast. The speed of accessing this information is why it is often used. 
 
-
-
+Time to try and connec
