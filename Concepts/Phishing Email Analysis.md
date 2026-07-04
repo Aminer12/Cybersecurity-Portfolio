@@ -51,3 +51,8 @@ Questions
 If a company is using google as their email server, then we would expect that to show in the email. A difference in domain names from what the company is using and the email sent can be signs of a phishing attempt
 
 A difference in the from and return-path can show that someone is trying to pretend the email is coming from a legitimate source, but then the reply is to a malicious account 
+
+
+
+Cisco Talos Intelligence - can help identify ip addresses reputation 
+
