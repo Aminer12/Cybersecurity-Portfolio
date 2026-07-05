@@ -11,7 +11,8 @@ Linux philosophy - simplicity, modularity, and openness. Creating programs that 
 
 # OverTheWire: Bandits 
 
-
+# Commands:
+id -un : prints only the username 
 ## Principles 
 
 Everything is a file - All system hardware, processes, and network connections are represented as files, meaning they can be manipulated using the same basic tools 
