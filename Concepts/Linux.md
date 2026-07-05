@@ -18,7 +18,10 @@ id -un : prints only the username
 cd . . ( the double dots means - the directory above)
 cd /home -> considered an absolute path because it starts from the root directory 
 echo "Hello, Linux" > file2.txt -> || The > redirects the output of echo to file2.txt || Also creates the file if it does not exist 
+ls -l testdir -> generates a total count of files or directories within the selected directory 
+cp -> copy || cp file1.txt file1_copy.txt -> creates a copy of file1 || cp file2.txt /testdir -> creates a copy of file2 and sends it to the /testdir directory || cp  -r testdir testdir_copy -> creates a copy of the file, the -r ensures everything within the directory is copied 
 
+mv -> changes names || mv file1.txt  newname.txt ||  mv newname.txt testdir/ -> moves the file to the selected directory || mv also works on directories just like files || mv testdir/newname.tx
 ## Principles 
 
 Everything is a file - All system hardware, processes, and network connections are represented as files, meaning they can be manipulated using the same basic tools 
