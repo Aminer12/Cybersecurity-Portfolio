@@ -7,12 +7,18 @@ Linux philosophy - simplicity, modularity, and openness. Creating programs that 
 /etc/passwd can be useful directory to look at for penetration testers as it contains passwords for the user
 /etc/shadow - stores the hashes but has stricter security settings 
 
+Commands can be used without being directly accessed like echo ~ (which will show the home directory) or ls ~ to see the files or directories in the home directory. 
+
 
 
 # OverTheWire: Bandits 
 
 # Commands:
 id -un : prints only the username 
+cd . . ( the double dots means - the directory above)
+cd /home -> considered an absolute path because it starts from the root directory 
+echo "Hello, Linux" > file2.txt -> || The > redirects the output of echo to file2.txt || Also creates the file if it does not exist 
+
 ## Principles 
 
 Everything is a file - All system hardware, processes, and network connections are represented as files, meaning they can be manipulated using the same basic tools 
@@ -22,6 +28,8 @@ Small, single purpose programs - simple programs combined together to solve prob
 No captive user interface - most of the work must be done in the terminal, allowing for greater control 
 
 Configuration data stored in a text file - all data stored in files 
+
+
 
 ## Components 
 
