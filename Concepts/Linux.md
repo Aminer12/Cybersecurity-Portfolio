@@ -24,6 +24,11 @@ cp -> copy || cp file1.txt file1_copy.txt -> creates a copy of file1 || cp file2
 mv -> changes names || mv file1.txt  newname.txt ||  mv newname.txt testdir/ -> moves the file to the selected directory || mv also works on directories just like files || mv testdir/newname.txt ./original_file1.txt -> moves the file out of testdir and changes its name. 
 
 rm -> remove a single file || rm file1.txt || rm -i file1.txt -> gives a warning prompt before deleting || rmdir new_testdir -> only removes empty directories, add -r to remove directories with files | -f can be used to force a delete | -rf can be used to force delete directories or files |
+
+cat -> read out the contents of a file || -n numbers the lines of the output 
+
+head -> read out the beginning of a file, normally 10 lines || -n1 tells only to show the first line || -c1 only prints the first byte of the file  
+tail -> reads out the end of a file - has the same commands as head and works as its opposite
 ## Principles 
 
 Everything is a file - All system hardware, processes, and network connections are represented as files, meaning they can be manipulated using the same basic tools 
