@@ -29,6 +29,8 @@ cat -> read out the contents of a file || -n numbers the lines of the output
 
 head -> read out the beginning of a file, normally 10 lines || -n1 tells only to show the first line || -c1 only prints the first byte of the file  
 tail -> reads out the end of a file - has the same commands as head and works as its opposite
+
+diff - command to compare two files and see the difference between the them || can be used to also look at directories -> -r allows for recursively compare subdirectories as well, the output shows that is in one directory but not in the other 
 ## Principles 
 
 Everything is a file - All system hardware, processes, and network connections are represented as files, meaning they can be manipulated using the same basic tools 
