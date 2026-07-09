@@ -18,7 +18,9 @@ id -un : prints only the username
 cd . . ( the double dots means - the directory above)
 cd /home -> considered an absolute path because it starts from the root directory 
 echo "Hello, Linux" > file2.txt -> || The > redirects the output of echo to file2.txt || Also creates the file if it does not exist 
+
 ls -l testdir -> generates a total count of files or directories within the selected directory || -R can be used to see subdirectories when listing 
+
 cp -> copy || cp file1.txt file1_copy.txt -> creates a copy of file1 || cp file2.txt /testdir -> creates a copy of file2 and sends it to the /testdir directory || cp  -r testdir testdir_copy -> creates a copy of the file, the -r ensures everything within the directory is copied 
 
 mv -> changes names || mv file1.txt  newname.txt ||  mv newname.txt testdir/ -> moves the file to the selected directory || mv also works on directories just like files || mv testdir/newname.txt ./original_file1.txt -> moves the file out of testdir and changes its name. 
@@ -32,11 +34,24 @@ tail -> reads out the end of a file - has the same commands as head and works as
 
 diff - command to compare two files and see the difference between the them || can be used to also look at directories -> -r allows for recursively compare subdirectories as well, the output shows that is in one directory but not in the other 
 
-Chown - used to modify both user and group permissions on a file. 
+mkdir - makes directories || -p allows you to make parent and subdirectories in the same command || mkdir -p new-dir/subdir
+
+
+Chown - used to modify both user and group permissions on a file. || -R to operate recursively changing all the permissions of files within directories and subdirectories 
 ```
 -rw-rw-r-- 1 labex labex 0 Jul 29 15:11 example.txt
 ```
+
 The first tack - means is a normal file, d would be for directory 
+Each grouping of three after the fist dash represents different peoples permissions: The first is user, then group, and last others 
+
+If there is a dash then that actions is denied, the order goes read (r), write (w) and execute (x)
+
+Each action is given a numeric value:
+- 4 for reading 
+- 2 for writing 
+- 1 Execute 
+- o No permission 
 The first labex represents the user, the second represents the group. Next is the file size represented here as a zero. 
 ```
 sudo chown root:root example.txt 
@@ -44,6 +59,13 @@ sudo chown root:root example.txt
 
 sudo - represents root privileges
 root:root represents the new user and group 
+
+Chmod changes the permissions on a file. 
+```
+sudo chmod 700 example.txt
+```
+The first number is user, then group, than other, the number represents the action numbers added up
+
 ## Principles 
 
 Everything is a file - All system hardware, processes, and network connections are represented as files, meaning they can be manipulated using the same basic tools 
