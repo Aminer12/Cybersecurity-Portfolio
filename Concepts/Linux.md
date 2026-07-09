@@ -32,7 +32,18 @@ tail -> reads out the end of a file - has the same commands as head and works as
 
 diff - command to compare two files and see the difference between the them || can be used to also look at directories -> -r allows for recursively compare subdirectories as well, the output shows that is in one directory but not in the other 
 
+Chown - used to modify both user and group permissions on a file. 
+```
+-rw-rw-r-- 1 labex labex 0 Jul 29 15:11 example.txt
+```
+The first tack - means is a normal file, d would be for directory 
+The first labex represents the user, the second represents the group. Next is the file size represented here as a zero. 
+```
+sudo chown root:root example.txt 
+```
 
+sudo - represents root privileges
+root:root represents the new user and group 
 ## Principles 
 
 Everything is a file - All system hardware, processes, and network connections are represented as files, meaning they can be manipulated using the same basic tools 
