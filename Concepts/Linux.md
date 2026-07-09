@@ -52,6 +52,17 @@ Each action is given a numeric value:
 - 2 for writing || Create new files within a directory 
 - 1 Execute  || access files within the directory 
 - o No permission 
+
+When using Symbolic notation for Permissions:
+- u - user(owner)
+- g - group
+- o -other
+- a - all 
+- + symbol adds 
+- - minus removes 
+```
+chmod u+x example.sh
+```
 The first labex represents the user, the second represents the group. Next is the file size represented here as a zero. 
 ```
 sudo chown root:root example.txt 
