@@ -77,6 +77,27 @@ sudo chmod 700 example.txt
 ```
 The first number is user, then group, than other, the number represents the action numbers added up
 
+useradd - adds user to the system || -m creates a home directory 
+```
+sudo useradd joker
+```
+/etc/passwd is the phone book for user information, with information separated by colons : 
+```
+joker:x:5001:5001::/home/joker:/bin/sh
+```
+username - joker
+password - x (stored securely elsewhere )
+user ID - 5001
+Group ID - 5001 
+Home Directory - /home/joker 
+Default shell - /bin/sh 
+
+passwd - sets a user password 
+```
+sudo passwd joker 
+```
+
+
 
 ## Principles 
 
