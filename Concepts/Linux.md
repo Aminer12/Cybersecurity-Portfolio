@@ -96,7 +96,34 @@ passwd - sets a user password
 ```
 sudo passwd joker 
 ```
+This password is stored in /etc/shadow 
 
+usermod - modifies user information || -d specifics a new home directory 
+```
+sudo usermod -d /home/wayne joker 
+```
+```
+sudo grep -w 'joker' /etc/passwd
+This code verifies the changes we made to the user 
+- w : used to match the whole word 
+```
+
+change the default shell to bash (more advanced shell)
+```
+sudo usermod -s /bin/bash joker 
+```
+
+change group 
+```
+sudo usermod -aG sudo joker 
+- aG : append to Group || adds user to group without removing them from others 
+- sudo is the group name is this example 
+```
+
+-su allows you to change users: || type exit to return to default user 
+```
+su - username || su - joker 
+```
 
 
 ## Principles 
