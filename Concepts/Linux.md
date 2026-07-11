@@ -92,7 +92,7 @@ Group ID - 5001
 Home Directory - /home/joker 
 Default shell - /bin/sh 
 
-passwd - sets a user password 
+passwd - sets a user password || -l to lock a password || -u to unlock a password 
 ```
 sudo passwd joker 
 ```
@@ -125,7 +125,7 @@ sudo usermod -aG sudo joker
 su - username || su - joker 
 ```
 
-
+userdel - to delete a user || -r removes the user's home directory and mail spool
 ## Principles 
 
 Everything is a file - All system hardware, processes, and network connections are represented as files, meaning they can be manipulated using the same basic tools 
