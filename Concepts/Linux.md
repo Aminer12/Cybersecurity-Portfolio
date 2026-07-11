@@ -132,6 +132,8 @@ uname - prints system information || -a prints all information
 uptime - Tells how long the system has been running 
 
 top - display linux processes 
+
+tar - commonly used to create compressed archive 
 ## Principles 
 
 Everything is a file - All system hardware, processes, and network connections are represented as files, meaning they can be manipulated using the same basic tools 
