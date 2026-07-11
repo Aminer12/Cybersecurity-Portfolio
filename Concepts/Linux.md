@@ -126,6 +126,12 @@ su - username || su - joker
 ```
 
 userdel - to delete a user || -r removes the user's home directory and mail spool
+
+uname - prints system information || -a prints all information 
+
+uptime - Tells how long the system has been running 
+
+top - display linux processes 
 ## Principles 
 
 Everything is a file - All system hardware, processes, and network connections are represented as files, meaning they can be manipulated using the same basic tools 
