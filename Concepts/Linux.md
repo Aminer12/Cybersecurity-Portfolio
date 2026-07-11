@@ -133,7 +133,14 @@ uptime - Tells how long the system has been running
 
 top - display linux processes 
 
-tar - commonly used to create compressed archive 
+tar - commonly used to create compressed archive files on disk || using the .gz extension 
+```
+tar -cfz archive.tar.gz file1 fil2 
+```
+-c : creates a new archive || -z : compresses the archive using gzip || -f : specify the filename of the archive 
+
+
+
 ## Principles 
 
 Everything is a file - All system hardware, processes, and network connections are represented as files, meaning they can be manipulated using the same basic tools 
