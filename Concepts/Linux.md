@@ -139,7 +139,10 @@ tar -cfz archive.tar.gz file1 fil2
 ```
 -c : creates a new archive || -z : compresses the archive using gzip || -f : specify the filename of the archive 
 
-grep - look through files or 
+grep - find information || -i to make something not case sensitive | -E to look for multiple names
+```
+grep -iE 'fail|error'
+```
 
 
 ## Principles 
