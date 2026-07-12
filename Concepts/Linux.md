@@ -18,8 +18,10 @@ Commands can be used without being directly accessed like echo ~ (which will sho
 apropos - helps finds commands related to keywords. 
 
 id -un : prints only the username 
-cd . . ( the double dots means - the directory above)
+
+cd . . ( the double dots means - the directory above) || cd ~ -> go to home directory || cd -   Goes to previous directory || cd -> another way to home directory 
 cd /home -> considered an absolute path because it starts from the root directory 
+
 echo "Hello, Linux" > file2.txt -> || The > redirects the output of echo to file2.txt || Also creates the file if it does not exist || >> can be used to add a line to the end of a file
 
 ls -l testdir -> generates a total count of files or directories within the selected directory || -R can be used to see subdirectories when listing || -d shows the permission on directories 
@@ -176,7 +178,10 @@ ls \* .txt -> shows all files ending in .txt
 ? - matches any single character 
 \[abc] - matches any one character listed in the brackets
 
-
+Here Document 
+```
+cat >> EOF < multiline.txt -> this creates a here document allowing the user to write multiple lines, ending once the delimiter (in this case EOF) is written by its self 
+```
 
 ## Principles 
 
