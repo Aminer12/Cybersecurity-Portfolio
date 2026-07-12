@@ -188,7 +188,7 @@ Find - used to locate files
 find . -name "/*.txt" -> show all the files ending in txt in current directory 
 ```
 
-
+source -> used to update the shell without having to reset it. 
 ##### Environment Variables 
 creating variables  || A shell variable, which can only be accessed in the terminal 
 ```
@@ -217,6 +217,20 @@ This allows the script to be run in any directory || you have to remember to cha
 
 To make a variable permanent you have to add it to the startup file, which depends on the shell being used || if zsh -> .zshrc || if bash -> .bashrc
 
+$HOME -> pints to the home directory of the current user 
+
+$USER -> Contains the username of the current user 
+
+$SHELL -> Specifies the user's default shell
+
+$PWD -> contains the path to current directory 
+
+$TERM -> specifies the type of terminal to emulate when running the shell
+
+unset -> used to remove variables || -v to ensure you are not deleting something important || this does not remove it from the .zshrc file, so the variable will return on the next shell
+```
+unset MY_ENV_VAR
+```
 ## Principles 
 
 Everything is a file - All system hardware, processes, and network connections are represented as files, meaning they can be manipulated using the same basic tools 
