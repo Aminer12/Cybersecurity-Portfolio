@@ -23,6 +23,10 @@ ls -l testdir -> generates a total count of files or directories within the sele
 
 cp -> copy || cp file1.txt file1_copy.txt -> creates a copy of file1 || cp file2.txt /testdir -> creates a copy of file2 and sends it to the /testdir directory || cp  -r testdir testdir_copy -> creates a copy of the file, the -r ensures everything within the directory is copied 
 
+touch - creates files
+```
+touch note_{1..5}.txt - creates five notes starting at 1 through 5 
+```
 mv -> changes names || mv file1.txt  newname.txt ||  mv newname.txt testdir/ -> moves the file to the selected directory || mv also works on directories just like files || mv testdir/newname.txt ./original_file1.txt -> moves the file out of testdir and changes its name. 
 
 rm -> remove a single file || rm file1.txt || rm -i file1.txt -> gives a warning prompt before deleting || rmdir new_testdir -> only removes empty directories, add -r to remove directories with files | -f can be used to force a delete | -rf can be used to force delete directories or files |
@@ -150,7 +154,13 @@ expr - allows for basic arithmetic math || expr 5 + 3
 
 figlet - commands turn into ASCII Text 
 
-clear - clears the terminal screen 
+clear - clears the terminal screen
+
+#### Wildcards 
+Asterix \* is used to match any character  
+```
+ls \* .txt -> shows all files ending in .txt
+```
 ## Principles 
 
 Everything is a file - All system hardware, processes, and network connections are represented as files, meaning they can be manipulated using the same basic tools 
