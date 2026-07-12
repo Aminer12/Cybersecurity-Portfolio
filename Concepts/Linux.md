@@ -144,6 +144,7 @@ grep - find information || -i to make something not case sensitive | -E to look 
 grep -iE 'fail|error'
 ```
 
+date - tells the date on the local machine || cal - for calendar 
 
 ## Principles 
 
