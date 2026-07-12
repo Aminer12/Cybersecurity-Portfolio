@@ -146,6 +146,11 @@ grep -iE 'fail|error'
 
 date - tells the date on the local machine || cal - for calendar 
 
+expr - allows for basic arithmetic math || expr 5 + 3 
+
+figlet - commands turn into ASCII Text 
+
+clear - clears the terminal screen 
 ## Principles 
 
 Everything is a file - All system hardware, processes, and network connections are represented as files, meaning they can be manipulated using the same basic tools 
