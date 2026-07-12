@@ -92,7 +92,7 @@ Group ID - 5001
 Home Directory - /home/joker 
 Default shell - /bin/sh 
 
-passwd - sets a user password || -l to lock a password || -u to unlock a password 
+passwd - sets a user password || -l to lock a password || -u to unlock a password || an exclamation mark in the user profile means the account is locked 
 ```
 sudo passwd joker 
 ```
