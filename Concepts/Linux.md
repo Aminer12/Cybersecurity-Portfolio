@@ -231,6 +231,13 @@ unset -> used to remove variables || -v to ensure you are not deleting something
 ```
 unset MY_ENV_VAR
 ```
+
+##### Package and Compressions 
+
+
+
+
+
 ## Principles 
 
 Everything is a file - All system hardware, processes, and network connections are represented as files, meaning they can be manipulated using the same basic tools 
