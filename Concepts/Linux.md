@@ -176,6 +176,8 @@ ls \* .txt -> shows all files ending in .txt
 ? - matches any single character 
 \[abc] - matches any one character listed in the brackets
 
+
+
 ## Principles 
 
 Everything is a file - All system hardware, processes, and network connections are represented as files, meaning they can be manipulated using the same basic tools 
