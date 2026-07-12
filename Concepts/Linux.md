@@ -183,6 +183,10 @@ Here Document
 cat >> EOF < multiline.txt -> this creates a here document allowing the user to write multiple lines, ending once the delimiter (in this case EOF) is written by its self 
 ```
 
+Find - used to locate files 
+```
+find . -name "/*.txt" -> show all the files ending in txt in current directory 
+```
 ## Principles 
 
 Everything is a file - All system hardware, processes, and network connections are represented as files, meaning they can be manipulated using the same basic tools 
