@@ -189,7 +189,11 @@ find . -name "/*.txt" -> show all the files ending in txt in current directory
 ```
 
 
-
+##### Environment Variables 
+creating variables 
+```
+my_var = var value || my_var = "Hello World"
+```
 
 
 
