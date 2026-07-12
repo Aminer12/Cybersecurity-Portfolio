@@ -165,6 +165,7 @@ type cd -> cd is a shell builtin
 ```
 - built in commands 
 - external commands ls 
+groupadd - creates new groups || may need the sudo command to work 
 
 #### Wildcards 
 Asterix \* is used to match any character  
