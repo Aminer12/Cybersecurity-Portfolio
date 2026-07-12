@@ -14,6 +14,9 @@ Commands can be used without being directly accessed like echo ~ (which will sho
 # OverTheWire: Bandits 
 
 # Commands:
+
+apropos - helps finds commands related to keywords. 
+
 id -un : prints only the username 
 cd . . ( the double dots means - the directory above)
 cd /home -> considered an absolute path because it starts from the root directory 
