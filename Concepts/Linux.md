@@ -156,11 +156,22 @@ figlet - commands turn into ASCII Text
 
 clear - clears the terminal screen
 
+type - tells you the type of command it is
+```
+type cd -> cd is a shell builtin
+```
+- built in commands 
+- external commands ls 
+
 #### Wildcards 
 Asterix \* is used to match any character  
 ```
 ls \* .txt -> shows all files ending in .txt
 ```
+
+? - matches any single character 
+\[abc] - matches any one character listed in the brackets
+
 ## Principles 
 
 Everything is a file - All system hardware, processes, and network connections are represented as files, meaning they can be manipulated using the same basic tools 
