@@ -190,13 +190,19 @@ find . -name "/*.txt" -> show all the files ending in txt in current directory
 
 
 ##### Environment Variables 
-creating variables 
+creating variables  || A shell variable, which can only be accessed in the terminal 
 ```
-my_var = var value || my_var = "Hello World"
+my_var=var value || my_var="Hello World" -> there must be no spaces 
 ```
-
-
-
+view variable value || the $ tells the shell to substitute the value of the variable 
+```
+echo $my_var 
+```
+env -> shows current environment variables 
+export -> creates a environmental variable 
+```
+export MY_ENV_VAR="This is an environment variable"
+```
 
 
 
