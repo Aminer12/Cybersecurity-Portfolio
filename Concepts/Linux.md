@@ -142,12 +142,6 @@ uptime - Tells how long the system has been running
 
 top - display linux processes 
 
-tar - commonly used to create compressed archive files on disk || using the .gz extension 
-```
-tar -cfz archive.tar.gz file1 fil2 
-```
--c : creates a new archive || -z : compresses the archive using gzip || -f : specify the filename of the archive 
-
 grep - find information || -i to make something not case sensitive | -E to look for multiple names
 ```
 grep -iE 'fail|error'
@@ -233,7 +227,30 @@ unset MY_ENV_VAR
 ```
 
 ##### Package and Compressions 
+tar - commonly used to create compressed archive files on disk || using the .gz extension 
+```
+tar -cfz archive.tar.gz file1 fil2 
+```
+-c : creates a new archive || -z : compresses the archive using gzip || -f : specify the filename of the archive 
+```
+tar -cvf test_archive.tar test_dir
+-v -> verbose, prints outs the name of the files its adding to the archive 
+```
 
+```
+tar -tvf test_archive.tar 
+-t contents of archive 
+-v verbose 
+-f from the file 
+```
+
+```
+tar -xvf test_archive.tar -C extracted_tar
+-x extract files 
+-C change to the selected directory before extracting files 
+```
+
+gzip to compress tar files. 
 
 
 
