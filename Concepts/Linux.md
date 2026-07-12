@@ -205,12 +205,17 @@ export MY_ENV_VAR="This is an environment variable"
 ```
 
 
+![](../assets/Pasted%20image%2020260712160732.png)
 
+Adding a directory to the PATH variable 
+```
+export PATH="$PATH:$HOME/my_scripts
+: -> used to seperate directories 
 
+```
+This allows the script to be run in any directory || you have to remember to change the file permission to have executable rights 
 
-
-
-
+To make a variable permanent you have to add it to the startup file, which depends on the shell being used || if zsh -> .zshrc || if bash -> .bashrc
 
 ## Principles 
 
