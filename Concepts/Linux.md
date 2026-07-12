@@ -187,6 +187,21 @@ Find - used to locate files
 ```
 find . -name "/*.txt" -> show all the files ending in txt in current directory 
 ```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Principles 
 
 Everything is a file - All system hardware, processes, and network connections are represented as files, meaning they can be manipulated using the same basic tools 
