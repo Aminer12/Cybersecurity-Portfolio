@@ -267,11 +267,30 @@ unzip -d unzipped_files test_archive.zip
 
 ##### File Systems and Disk Management 
 df (disk free) command for checking disk space usage on Linux machines 
+```
+df -h 
+-h makes it more readable
+```
+du -> (disk usage) shows which directories and files are taking up the most space 
+```
+du -h ~
+-s -> can be added to see a summary report 
+```
+```
+du -h --max-depth=1 ~ 
+gives a summary of only the immediate subdirectories 
 
+du -h ~ | sort -rh | head -n 10 
+This command gives a list of the top 10 file sizes within the selected directory 
+```
 
+dd - used to create virtual disk 
+```
+dd if=/dev/zero of=virtual.img bs=1m count=256
 
+dd -> utility for copying and converting files 
 
-
+```
 
 
 
