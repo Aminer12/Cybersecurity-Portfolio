@@ -264,6 +264,29 @@ zip -r test_archive.zip test_dir
 unzip -d unzipped_files test_archive.zip 
 -d -> points to the directory, which unzip will create 
 ```
+
+##### File Systems and Disk Management 
+df (disk free) command for checking disk space usage on Linux machines 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Principles 
 
 Everything is a file - All system hardware, processes, and network connections are represented as files, meaning they can be manipulated using the same basic tools 
