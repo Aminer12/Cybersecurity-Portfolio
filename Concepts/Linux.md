@@ -494,10 +494,30 @@ awk 'NR > 1 {sum += $2} END {print "Average age:", sum/(NR-1)}' awk_test.txt
 
 ##### Software Installation on Linux 
 best practice, before installing you update the system
+```
+sudo apt update
+apt - package management command 
 
+sudo apt install w3m -y 
+w3m - name of package
+-y -> flag automatically answer yes if prompted
 
+apt-cache search "text editor" -> to search for a package you many need without knowing the name 
 
+sudo apt remove w3m -y -> removes the package selected, but leaves the configuration files 
 
+sudo apt purge w3m -y -> removes the package and configuration files 
+
+sudo apt autoremove - y -> removes leftover dependencies from deleted packages 
+```
+
+.deb file installs 
+need to use wget to get from the internet 
+
+check package 
+```
+
+```
 ## Principles 
 
 Everything is a file - All system hardware, processes, and network connections are represented as files, meaning they can be manipulated using the same basic tools 
