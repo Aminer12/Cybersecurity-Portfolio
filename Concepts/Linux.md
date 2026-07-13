@@ -516,7 +516,11 @@ need to use wget to get from the internet
 
 check package 
 ```
+dpkg -I tree_2.0.2-1_amd64.deb
 
+sudo dpkg -i tree_2.0.2-1_amd64.deb -> install the package
+
+sudo apt -f install -> this will install any missing dependencies tr
 ```
 ## Principles 
 
