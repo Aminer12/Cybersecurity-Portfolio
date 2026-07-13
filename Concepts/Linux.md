@@ -22,7 +22,7 @@ id -un : prints only the username
 cd . . ( the double dots means - the directory above) || cd ~ -> go to home directory || cd -   Goes to previous directory || cd -> another way to home directory 
 cd /home -> considered an absolute path because it starts from the root directory 
 
-echo "Hello, Linux" > file2.txt -> || The > redirects the output of echo to file2.txt || Also creates the file if it does not exist || >> can be used to add a line to the end of a file
+echo "Hello, Linux" > file2.txt -> || The > redirects the output of echo to file2.txt || Also creates the file if it does not exist || >> can be used to add a line to the end of a file || -e allows for the interpretation of backslashes used to create new lines \n 
 
 ls -l testdir -> generates a total count of files or directories within the selected directory || -R can be used to see subdirectories when listing || -d shows the permission on directories 
 
@@ -388,13 +388,33 @@ echo 'hello labex' | tr -d 'olh' -> outcome e abex
 echo 'hello labex' | tr '[:lower:]' '[:upper:]' -> changes lowercase to upper case 
 
 ```
-
 col - used to filer reverse line feeds from input 
 ```
 cat /etc/protocols | col -x | cat -A | head -n10
 
-outcome is to change the ^I character 
+-x -> convert tabs to spaces 
+
+outcome is to change the ^I character within the protocol output to spaces 
 ```
+Join - used to join lines of two files on a common field 
+```
+Join fruits.txt colors.txt
+```
+paste -> used to merge lines of files 
+```
+paste fruits.txt colors.txt taste.txt
+-d ':' can be used to set a new deliminator 
+-s -> serializes the paste 
+```
+
+
+
+
+
+
+
+
+
 
 
 ## Principles 
