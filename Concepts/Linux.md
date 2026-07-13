@@ -332,8 +332,19 @@ sudo fdisk -l
 
 ##### Sequence Control and Pipeline:
 
+&& - means and, this tells Linux to run the next command if the first one was successful 
+```
+date && ls ~
+```
+Two lines || -> is the logical OR operator, it tells Linux to run the next command if the first command fails 
 
+Pipelines -> allow you to connect the output of one command into the input of another and is done with the | single line 
+```
+ls -l /etc | grep '^d' | wc -l 
 
+ls -l /etc -> list the contents of /etc
+grep '
+```
 
 
 ## Principles 
