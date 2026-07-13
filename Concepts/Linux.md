@@ -325,7 +325,10 @@ dismount
 sudo umount /mnt/virtualdisk
 ```
 
-
+fdisk - for viewing partition information || also creating, deleting and modifying partitions 
+```
+sudo fdisk -l
+```
 
 
 
