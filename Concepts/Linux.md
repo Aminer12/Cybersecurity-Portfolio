@@ -365,11 +365,20 @@ head -n 1- /etc/passwd | wc -w
 
 Sort - used to sort lines of text 
 ```
+sort -t: -k3 -n /etc/passwd | head -n 5 
 
+-t: -> use : as a field seperator 
+-k3 -> sort based on the third field
+-n -> sort numerically 
+```
+uniq - used to remove or identify duplicate lines in sorted text
+```
+cut -d: -f7 /etc/passwd | sort | uniq 
+
+-c -> option shows the number of occurrences 
 ```
 
-
-
+##### Simple T
 
 
 
