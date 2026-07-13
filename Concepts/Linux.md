@@ -378,12 +378,23 @@ cut -d: -f7 /etc/passwd | sort | uniq
 -c -> option shows the number of occurrences 
 ```
 
-##### Simple T
+##### Simple Text Processing 
+tr (translate) tool used to translate or delete characters in a text stream
+```
+echo 'hello labex' | tr -d 'olh' -> outcome e abex
+-d -> delete specified characters 
+-s -> removes duplicate characters 
 
+echo 'hello labex' | tr '[:lower:]' '[:upper:]' -> changes lowercase to upper case 
 
+```
 
+col - used to filer reverse line feeds from input 
+```
+cat /etc/protocols | col -x | cat -A | head -n10
 
-
+outcome is to change the ^I character 
+```
 
 
 ## Principles 
