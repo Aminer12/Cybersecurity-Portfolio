@@ -452,6 +452,23 @@ sed (stream editor) - used to parse and transform text
 
 Important to understand that forward slashes (/) are used as separators between command parts, while bask slashes (\) are used for escape characters or command terminators 
 
+```
+sed 's/Hello/Hi/' sed_test.txt -> outcome, hello is replaced with Hi in the file, one the first occurance of the word on each line 
+-g -> makes it global replaceing all the Hellos within the file with Hi
+
+Normally this would only modify the output, not the file itself. To keep the changes add 
+-i 
+
+sed '2d' sed_test.txt -> outcome deletes the 2nd line 
+d - stand for delete
+
+sed '1i\First line' sed_test.txt -> inserts First line before the first line of the file || notice the backslash used here as a command deliminator
+i - stand for insert 
+
+sed '$a\Last line' sed_test.txt
+$ - represents the last line
+a = append command 
+```
 
 
 
