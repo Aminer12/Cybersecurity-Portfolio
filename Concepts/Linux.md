@@ -431,6 +431,10 @@ cat /dev/null > combined_output.log
 
 ##### Text Processing and Regular Expressions 
 
+^ -> symbol matches the start of a line, so the code below matches lines that begin with - lab
+```
+grep "^lab" practice.txt
+```
 
 
 ## Principles 
