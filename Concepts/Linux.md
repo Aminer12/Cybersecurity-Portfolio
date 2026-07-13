@@ -409,7 +409,7 @@ paste fruits.txt colors.txt taste.txt
 
 ##### Data Stream Redirection 
 
-
+![](../assets/Pasted%20image%2020260713134530.png)
 
 
 
