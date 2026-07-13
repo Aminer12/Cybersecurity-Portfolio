@@ -330,6 +330,7 @@ fdisk - for viewing partition information || also creating, deleting and modifyi
 sudo fdisk -l
 ```
 
+##### Sequence Control and Pipeline:
 
 
 
