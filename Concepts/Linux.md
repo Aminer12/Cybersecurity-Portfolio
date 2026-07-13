@@ -343,8 +343,38 @@ Pipelines -> allow you to connect the output of one command into the input of an
 ls -l /etc | grep '^d' | wc -l 
 
 ls -l /etc -> list the contents of /etc
-grep '
+grep '^d' -> filters for lines starting with d (directories)
+wc -l -> counts those lines 
 ```
+
+cut - used to extract specific parts of each line of a file
+```
+cut -d: -f1,6 /ect/passwd | head -n 5
+
+-d: -> is the delimiter set to seperate charactes after each : 
+-f1,6 -> extract the 1st and 6th field ( corresponding to the username and home diectory)
+```
+wc (word count) useful for counting lines, words and characters in text
+```
+wc -l /etc/passwd -> output is a number 
+-l -> count lines 
+
+head -n 1- /etc/passwd | wc -w 
+-w -> count words 
+```
+
+Sort - used to sort lines of text 
+```
+
+```
+
+
+
+
+
+
+
+
 
 
 ## Principles 
