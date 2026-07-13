@@ -434,7 +434,33 @@ cat /dev/null > combined_output.log
 ^ -> symbol matches the start of a line, so the code below matches lines that begin with - lab
 ```
 grep "^lab" practice.txt
+
+-i -> can be used to make the search case-insensitive
+-n -> will show the line number of matches 
+
+grep -C 1 "exlab" practice.txt
+
+-C 1 -> shows one line before and after the context 
+-v -> inverts the matches, showing lines that don't contain the pattern
+
+grep "lab[ex]\*" practice.txt
+[ex]\* -> is a regex that matches zero or more occurances of either e or x 
 ```
+
+sed (stream editor) - used to parse and transform text 
+![](../assets/Pasted%20image%2020260713143316.png)
+
+Important to understand that forward slashes (/) are used as separators between command parts, while bask slashes (\) are used for escape characters or command terminators 
+
+
+
+
+
+
+
+
+
+
 
 
 ## Principles 
