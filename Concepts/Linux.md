@@ -479,12 +479,18 @@ awk '{print $1}' awk_test.txt -> outcome prints the first field
 $0 -> refers to the entire line
 $1 -> first field 
 $2 -> second field || and so on
-awk '{print $1, $2}' awk_test.txt 
+awk '{print $1, $2}' awk_test.txt -> multiple fields
 ```
 
+people over 28 
+```
+awk '$2 > 28 {print $1 " is over 28"}' awk_test.txt
+```
 
-
-
+calculates and prints the average age, skipping the header row
+```
+awk 'NR > 1 {sum += $2} END {print "Average age:", sum/(NR-1)}' awk_test.txt
+```
 
 
 
