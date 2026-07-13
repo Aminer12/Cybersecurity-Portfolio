@@ -407,6 +407,8 @@ paste fruits.txt colors.txt taste.txt
 -s -> serializes the paste 
 ```
 
+##### Data Stream Redirection 
+
 
 
 
