@@ -411,10 +411,19 @@ paste fruits.txt colors.txt taste.txt
 
 ![](../assets/Pasted%20image%2020260713134530.png)
 
+```
+cat documents/test.c nonexistent.c > output.log 2 > error.log
 
+combined_output.log 2>&1cat 
 
+short hand 
+&> another_combined_output.log
+```
 
-
+/dev/null (bit bucket or black hole) -> is a special file that discards all data written to it
+```
+ls -l > /dev/null
+```
 
 
 
