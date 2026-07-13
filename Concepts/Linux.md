@@ -468,8 +468,19 @@ i - stand for insert
 sed '$a\Last line' sed_test.txt
 $ - represents the last line
 a = append command 
+
+-e can be used for mulitple substitutions in the same command 
+sed -e 's/Hi/Hello/g' -e 's/labex/LabEx/g' sed_test.txt
 ```
 
+awk - treats each line of input as a record and each word on that line as a field
+```
+awk '{print $1}' awk_test.txt -> outcome prints the first field 
+$0 -> refers to the entire line
+$1 -> first field 
+$2 -> second field || and so on
+awk '{print $1, $2}' awk_test.txt 
+```
 
 
 
