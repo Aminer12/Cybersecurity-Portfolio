@@ -492,7 +492,8 @@ calculates and prints the average age, skipping the header row
 awk 'NR > 1 {sum += $2} END {print "Average age:", sum/(NR-1)}' awk_test.txt
 ```
 
-
+##### Software Installation on Linux 
+best practice, before installing you update the system
 
 
 
