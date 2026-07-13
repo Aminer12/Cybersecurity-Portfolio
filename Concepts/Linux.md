@@ -423,6 +423,10 @@ short hand
 /dev/null (bit bucket or black hole) -> is a special file that discards all data written to it
 ```
 ls -l > /dev/null
+
+clear contexts of a file 
+
+cat /dev/null > combined_output.log
 ```
 
 
