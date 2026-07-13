@@ -286,18 +286,44 @@ This command gives a list of the top 10 file sizes within the selected directory
 
 dd - used to create virtual disk 
 ```
-dd if=/dev/zero of=virtual.img bs=1m count=256
+dd if=/dev/zero of=virtual.img bs=1M count=256
 
 dd -> utility for copying and converting files 
 
+if=/dev/zero -> "input files is /dev/zero" || A special file that provides endless zeros 
+
+of=virtual.img -> output file is virtual.img
+
+bs=1M -> set the block size to 1 megabyte 
+cout - 256 -> copy 256 blocks resulting in a 256MB file
+
+
 ```
+formatting 
+```
+sudo mkfs.ext4 virtual.img
 
+this creates a file system within our folder following the .ext4 format 
+```
+Create mounting directory
+```
+sudo mkdir /mnt/virtualdisk
+```
+Mounting virtual disk
+```
+sudo mount -o loop virtual.img /mnt/virtualdisk
 
+-o loop -> treat our files as if it were a real disk device 
 
-
-
-
-
+```
+Check work 
+```
+mount | grep virtualdisk
+```
+dismount 
+```
+sudo umount /mnt/virtualdisk
+```
 
 
 
