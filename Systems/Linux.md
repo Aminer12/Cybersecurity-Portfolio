@@ -526,6 +526,28 @@ sudo dpkg -i tree_2.0.2-1_amd64.deb -> install the package
 
 sudo apt -f install -> this will install any missing dependencies tr
 ```
+
+##### File Content Operations 
+```
+cat -E filename -> puts a dollarsign $ when a line has ended 
+```
+
+more -> help navigate large files 
+	space -> to move to the next page 
+	Enter -> move down one line 
+	b -> go back one page 
+	q -> to quit and return to the prompt 
+
+
+
+
+
+
+
+
+
+
+
 ## Principles 
 
 Everything is a file - All system hardware, processes, and network connections are represented as files, meaning they can be manipulated using the same basic tools 
