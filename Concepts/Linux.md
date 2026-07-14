@@ -22,9 +22,11 @@ id -un : prints only the username
 cd . . ( the double dots means - the directory above) || cd ~ -> go to home directory || cd -   Goes to previous directory || cd -> another way to home directory 
 cd /home -> considered an absolute path because it starts from the root directory 
 
+pwd -> working directory path || -L logical path || -P physical path
+
 echo "Hello, Linux" > file2.txt -> || The > redirects the output of echo to file2.txt || Also creates the file if it does not exist || >> can be used to add a line to the end of a file || -e allows for the interpretation of backslashes used to create new lines \n 
 
-ls -l testdir -> generates a total count of files or directories within the selected directory || -R can be used to see subdirectories when listing || -d shows the permission on directories 
+ls -l testdir -> generates a total count of files or directories within the selected directory || -R can be used to see subdirectories when listing || -d shows the permission on directories  || -t -> the most recently modified first || \*/ shows the contents of the next subdirectory || --color=never -> no color 
 
 cp -> copy || cp file1.txt file1_copy.txt -> creates a copy of file1 || cp file2.txt /testdir -> creates a copy of file2 and sends it to the /testdir directory || cp  -r testdir testdir_copy -> creates a copy of the file, the -r ensures everything within the directory is copied 
 
