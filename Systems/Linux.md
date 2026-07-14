@@ -562,8 +562,8 @@ less filename
 -N -> display line numbers 
 
 less +/ERROR:.Database server_log.txt
-+/Error -> jumps to the first occurance when opening file 
-:.Database -> fist occurance of ERROR followed by any character 
++/ERROR: -> jumps to the first occurance when opening file 
+.Database -> fist occurance of ERROR: followed by any character than Database
 ```
 
 
