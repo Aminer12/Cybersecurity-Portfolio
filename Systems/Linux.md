@@ -538,10 +538,33 @@ more -> help navigate large files
 	b -> go back one page 
 	q -> to quit and return to the prompt 
 
+```
+more +100 -> start on line 100 
 
+more -10 -> display only 10 lines at a time 
 
+more +/"2023-07-15" -> will go to the first instance of this pattern
+```
 
+less -> allows you to scroll within a terminal when looking at large files 
+	Space -> move forward a page 
+	b -> move back a page 
+	up/down arrow -> move up or down a line 
+	G -> end of file
+	g -> beginning of file
+	q-> quit
+	/search -> searches for specified information 
+	n -> next occurrence of searched information 
+	N -> previous occurrence 
+	
+```
+less filename
+-N -> display line numbers 
 
+less +/ERROR:.Database server_log.txt
++/Error -> jumps to the first occurance when opening file 
+:.Database -> fist occurance of ERROR followed by any character 
+```
 
 
 
