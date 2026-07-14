@@ -48,7 +48,7 @@ diff - command to compare two files and see the difference between the them || c
 mkdir - makes directories ||
 -p allows you to make parent and subdirectories in the same command || mkdir -p new-dir/subdir 
 -m 777 allows you to set the permissions of the directory when it is being made 
--v -> verbose, prints messages about the directoris 
+-v -> verbose, prints messages about the directories being made 
 
 Chown - used to modify both user and group permissions on a file. || -R to operate recursively changing all the permissions of files within directories and subdirectories 
 ```
