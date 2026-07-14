@@ -45,8 +45,10 @@ tail -> reads out the end of a file - has the same commands as head and works as
 
 diff - command to compare two files and see the difference between the them || can be used to also look at directories -> -r allows for recursively compare subdirectories as well, the output shows that is in one directory but not in the other 
 
-mkdir - makes directories || -p allows you to make parent and subdirectories in the same command || mkdir -p new-dir/subdir
-
+mkdir - makes directories ||
+-p allows you to make parent and subdirectories in the same command || mkdir -p new-dir/subdir 
+-m 777 allows you to set the permissions of the directory when it is being made 
+-v -> verbose, prints messages about the directoris 
 
 Chown - used to modify both user and group permissions on a file. || -R to operate recursively changing all the permissions of files within directories and subdirectories 
 ```
