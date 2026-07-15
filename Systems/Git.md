@@ -34,3 +34,43 @@ Git configuration
 	system level -> applied to all time machines in this dimension
 	Global level -> Your personal settings for all your time travels
 	Local level -> specific to this particular time experiment 
+
+view time machine settings
+```
+git config --list 
+
+specific setting 
+
+git config user.name
+
+```
+Global Name:
+```
+git config --global user.name "Your Name"
+
+email 
+
+git config --global user.email "email"
+
+Verify -> same code just without the quotations 
+```
+Color config
+```
+git config --global color.ui auto 
+auto -> use colors when outputting to the terminal 
+```
+setting text editor 
+```
+git config --global core.editor nano
+```
+
+cross-compatibility
+Windows uses carriage-return and a line-feed character (CRLF)
+Unix-based / macOS uses line-feed (LF )
+
+setting auto cross compatibility
+```
+git config --global core.autocrlf input 
+
+this tells git to convert crlf to lf when you commit 
+```
