@@ -21,7 +21,11 @@ adding a file to git
 ```
 git add filename.txt
 ```
-Creating a commit 
+Creating a commit | like creating a snapshot of the file in the current moment 
 ```
-
+git commit -m "Send a message to the future"
+```
+log of our history 
+```
+git log 
 ```
