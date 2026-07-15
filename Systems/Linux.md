@@ -602,6 +602,7 @@ nl -b p'^[^#]' filename
 '^[^#]' -> regular expression pattern ^ means start of line || [^#] mean any character that is not # 
 ```
 
+##### File Searching 
 
 
 
