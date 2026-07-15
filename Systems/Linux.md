@@ -581,6 +581,43 @@ tail -f filename
 -f (follow)
 ```
 
+
+nl -> used for line numbering 
+```
+nl filename
+-b a -> numbers empty lines || -b controls the line numbering for the body of the file || -a stands for all
+
+-n rz -> outcome 00001 for the first line and so on
+-n -> specify the numbering format 
+r -> right aligned 
+z -> means adding leading zeroes 
+
+```
+pattern numbering 
+```
+nl -b p'^[^#]' filename
+
+-b p -> only number lines that match the pattern 
+
+'^[^#]' -> regular expression pattern ^ means start of line || [^#] mean any character that is not # 
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Principles 
 
 Everything is a file - All system hardware, processes, and network connections are represented as files, meaning they can be manipulated using the same basic tools 
