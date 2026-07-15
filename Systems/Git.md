@@ -94,3 +94,12 @@ echo "*.log" > .gitingnore
 
 ignore any files with the .log extension
 ```
+
+see changes before commit 
+```
+git diff q
+```
+un-staging files 
+```
+git restore --staged hello.py
+```
