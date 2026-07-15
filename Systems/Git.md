@@ -88,3 +88,9 @@ experimental setting -> which override global setting but only for the experimen
 git config user.name "name" -> this is done at the experiment level
 ```
 
+ignore files command 
+```
+echo "*.log" > .gitingnore 
+
+ignore any files with the .log extension
+```
