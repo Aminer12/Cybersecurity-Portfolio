@@ -72,5 +72,17 @@ setting auto cross compatibility
 ```
 git config --global core.autocrlf input 
 
-this tells git to convert crlf to lf when you commit 
+this tells git to convert crlf to lf when you commit (input), but not when you output 
+```
+alias for checking the current state of your timeline
+```
+git config --global.st status
+
+alias -> st for the status command 
+
+git st -> now runs the status command 
+```
+alias for travel log data
+```
+git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
 ```
