@@ -610,10 +610,17 @@ which command -> which gcc
 -a -> discover all installations of a command 
 ```
 The order of paths matter within the PATH variable || 
+```
+export PATH="$PATH:$HOME" -> adds the $home directory to the end of path for this termial session
+```
 
-
-
-
+whereis -> tool used to locate binary, source, and manual page files for various commands in the Linux system
+```
+whereis ls 
+-b -> binary search || Binary fiels are the executable programs that run when you type a command 
+-m -> manual pages search 
+-s -> search for sources files || source files can be useful for understanding how a program works or for compiling custom versions
+```
 
 
 
