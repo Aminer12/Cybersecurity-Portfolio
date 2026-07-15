@@ -103,3 +103,25 @@ un-staging files
 ```
 git restore --staged hello.py
 ```
+
+Great a new Branch
+```
+git branch feature-dimension
+
+see branches 
+
+git branch
+```
+\* -> what branch you are currently in
+change branches 
+```
+git checkout feature-dimension 
+
+or 
+
+git switch feature-dimension
+
+switch and create 
+git switch -c new_branch
+```
+
