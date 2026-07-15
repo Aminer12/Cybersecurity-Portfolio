@@ -604,11 +604,12 @@ nl -b p'^[^#]' filename
 
 ##### File Searching 
 
-
-
-
-
-
+which -> used to locate the executable files associated with a given command by searching through the directories listed in PATH environment variable 
+```
+which command -> which gcc 
+-a -> discover all installations of a command 
+```
+The order of paths matter within the PATH variable || 
 
 
 
