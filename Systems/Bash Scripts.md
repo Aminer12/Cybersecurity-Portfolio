@@ -15,3 +15,16 @@ running script
 
 ./ -> tell the system to look for the script in the current directory 
 ```
+
+Creating Variables 
+```
+#!/bin/bash
+
+PRICE_PER_APPLE=5
+MyFirstLetters=ABC
+greeting='Hello world!' 
+
+echo "Price per apple: $PRICE_PER_APPLE"
+echo "My first letters: $MyFirstLetters"
+echo "Greeting: $greeting"
+```
