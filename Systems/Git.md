@@ -82,7 +82,9 @@ alias -> st for the status command
 
 git st -> now runs the status command 
 ```
-alias for travel log data
+
+experimental setting -> which override global setting but only for the experiment
 ```
-git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
+git config user.name "name" -> this is done at the experiment level
 ```
+
