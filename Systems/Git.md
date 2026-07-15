@@ -29,3 +29,8 @@ log of our history
 ```
 git log 
 ```
+
+Git configuration
+	system level -> applied to all time machines in this dimension
+	Global level -> Your personal settings for all your time travels
+	Local level -> specific to this particular time experiment 
