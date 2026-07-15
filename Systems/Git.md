@@ -111,6 +111,7 @@ git branch feature-dimension
 see branches 
 
 git branch
+-a -> to see all
 ```
 \* -> what branch you are currently in
 change branches 
@@ -124,4 +125,13 @@ git switch feature-dimension
 switch and create 
 git switch -c new_branch
 ```
-
+Merge branches 
+```
+git merge branch-name
+```
+close branches 
+```
+git branch -d branch-name
+-d -> delete the branch, but only if its been merged 
+-D -> to force delete
+```
