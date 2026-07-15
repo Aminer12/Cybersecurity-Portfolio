@@ -566,10 +566,20 @@ less +/ERROR:.Database server_log.txt
 .Database -> fist occurance of ERROR: followed by any character than Database
 ```
 
+Head command allows you to view multiple files at the same time 
+	-c Displays the first few bytes of a file instead of lines 
+	-q suppress headers when examining multiple files 
+	-v Always displays headers when examining multiple files 
 
-
-
-
+tail -> often used to view the end of a file
+```
+tail -n +50 filename -> starts at the 50th line and display till end of the file
+```
+live monitoring of a file 
+```
+tail -f filename
+-f (follow)
+```
 
 ## Principles 
 
