@@ -622,6 +622,7 @@ whereis ls
 -s -> search for sources files || source files can be useful for understanding how a program works or for compiling custom versions
 ```
 
+find -> used for locating files and directories based on various criteria 
 
 
 
