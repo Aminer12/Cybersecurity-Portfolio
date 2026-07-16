@@ -663,7 +663,10 @@ sort -t: -k2n -k3nr filename
 -k3nr -> sorts based on the third field numerically in reverse order 
 ```
 
-
+tr - character translating || command reads text from standard input stdin transforms it according to the specified options and character set, and writes the result to standard output, meaning that the changes are permanent 
+```
+cat filename.txt | tr 'a-z' 'A-Z' -> capitalize all the characters 
+```
 
 
 
