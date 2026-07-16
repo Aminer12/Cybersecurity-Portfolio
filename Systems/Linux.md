@@ -623,7 +623,19 @@ whereis ls
 ```
 
 find -> used for locating files and directories based on various criteria 
+```
+find . -name "clue.txt"
+. -> current directory 
 
+find . -name "*.txt" -o -name "*.log"
+-o -> means or 
+
+-type f -> regular files 
+
+-size +1M -> larger than 1 megabyte 
+
+-mtime -1 -> files modified less than 1 day ago 
+```
 
 
 
