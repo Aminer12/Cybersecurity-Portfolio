@@ -636,8 +636,15 @@ find . -name "*.txt" -o -name "*.log"
 
 -mtime -1 -> files modified less than 1 day ago 
 ```
+combined commands
+```
+find . -name "*.txt" -exec cat {} \; 
 
+-exec cat {} \; -> execute the cat command, {} is a place holder for files found by find, and the \; ends the execute command. 
+This prints the files to terminal that are found within this pattern 
+```
 
+##### Text Processing 
 
 
 ## Principles 
