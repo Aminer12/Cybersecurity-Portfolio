@@ -655,7 +655,13 @@ grep -B 2 -A 2 "CRITICAL" logs/server.log
 -v -> invert the match
 ```
 
+```
+sort -t: -k2n -k3nr filename
 
+-t: -> specifies field seperated by colons 
+-k2n -> sorts based on the second field numerically 
+-k3nr -> sorts based on the third field numerically in reverse order 
+```
 
 
 
