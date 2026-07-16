@@ -153,3 +153,22 @@ fi
 
 $# -> special variable, which holds the number of arguements passed to the script 
 ```
+
+Looping through all arguments 
+```
+#!/bin/bash 
+
+echo "Total number of arguments: $#" 
+echo "All arguments:" count=1 for arg in "$@"; do
+	echo "Argument $count: $arg" 
+	count=$((count + 1)) 
+done
+
+$@ -> special variable that contains all the agruments pased to the script 
+
+count -> expression allows for incremental counting 
+```
+
+
+#### Shell Arrays 
+
