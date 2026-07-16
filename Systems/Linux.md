@@ -646,6 +646,27 @@ This prints the files to terminal that are found within this pattern
 
 ##### Text Processing 
 
+```
+grep -B 2 -A 2 "CRITICAL" logs/server.log
+
+-B -> 2 before match
+-A -> 2 after match
+
+-v -> invert the match
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Principles 
 
