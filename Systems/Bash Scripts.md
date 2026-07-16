@@ -112,3 +112,44 @@ echo "MY_VARIABLE after unsetting: $MY_VARIABLE"
 
 
 #### Passing Arguments to the Script
+```
+$0 -> represents the name of the script 
+$1 and so on _> represent the arguements
+
+#!/bin/bash
+
+echo "Script name: $0" 
+echo "First argument: $1" 
+echo "Second argument: $2" 
+echo "Third argument: $3"
+```
+adding arguments 
+```
+./arguments.sh hello world example
+hello -> first argument
+world -> second argument 
+example -> third argument
+```
+
+Handling arguments
+```
+#!/bin/bash 
+
+if [ $# -eq 0 ]; then 
+	echo "No arguments provided." 
+elif [ $# -eq 1 ]; then 
+	echo "One argument provided: $1" 
+elif [ $# -eq 2 ]; then 
+	echo "Two arguments provided: $1 and $2" 
+else 
+	echo "More than two arguments provided:" 
+	echo "First argument: $1" 
+	echo "Second argument: $2" 
+	echo "Third argument: $3" 
+	echo "Total number of arguments: $#" 
+fi
+
+
+
+$# -> special variable, which holds the number of arguements passed to the script 
+```
