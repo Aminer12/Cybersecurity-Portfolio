@@ -666,6 +666,11 @@ sort -t: -k2n -k3nr filename
 tr - character translating || command reads text from standard input stdin transforms it according to the specified options and character set, and writes the result to standard output, meaning that the changes are permanent 
 ```
 cat filename.txt | tr 'a-z' 'A-Z' -> capitalize all the characters 
+
+tr -d '[:punct:]' -> d for delete, and the rest is a character class that represents all punctuation characters 
+
+-cd '[:digits:]' -> extracts digits from a mixed character file 
+
 ```
 
 
