@@ -21,6 +21,17 @@ Creating Variables
 #!/bin/bash
 PRICE_PER_APPLE=5 
 MyFirstLetters=ABC 
-greeting='Hello world!' # Escaping special characters echo "The price of an Apple today is: \$HK $PRICE_PER_APPLE" # Avoiding ambiguity echo "The first 10 letters in the alphabet are: ${MyFirstLetters}DEFGHIJ" # Preserving whitespace echo $greeting echo "$greeting"
+greeting='Hello world!' 
+
+# Escaping special characters 
+echo "The price of an Apple today is: \$HK $PRICE_PER_APPLE" -> \$ is an escape so the symbol can be used naturally
+
+# Avoiding ambiguity 
+echo "The first 10 letters in the alphabet are: ${MyFirstLetters}DEFGHIJ" 
+
+# Preserving whitespace 
+echo $greeting -> Hello World!
+echo "$greeting" -> Hello    World!
 ```
 
+command substitutes are done using $() or backticks(\`\`) || which allow you to use the output of a command as the value of a variable 
