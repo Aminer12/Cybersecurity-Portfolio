@@ -674,6 +674,16 @@ tr -d '[:punct:]' -> d for delete, and the rest is a character class that repres
 ```
 
 
+Join output
+```
+join -o 1.2, 1.3, 2.2, 1.1 filename filename 
+
+-a 1 -> include upairable lines from the first file listed 
+```
+
+![](../assets/Pasted%20image%2020260717130317.png)
+
+xargs -> command used to build and execute commands from standard input || helpful in handling list of arguments and transforming them into command lines 
 
 
 
