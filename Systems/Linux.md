@@ -500,8 +500,23 @@ Filtering Logs Entries
 ```
 awk '$4 == "POST" {print $0}' server_logs.txt 
 
-This command looks at field four for POST
+This command looks at field four for POST and then prints the entire line if found
+
+awk '$4 == "POST" && $6 >= 400 {print $0}' server_logs.txt
+
+&& -> and  
 ```
+
+Counting and Summarizing Data
+```
+awk '{count[$6]++} END {for (code in count) print code, count[code]}' server_logs.txt | sort -n
+```
+![](../assets/Pasted%20image%2020260717133506.png)
+
+
+
+
+
 ##### Software Installation on Linux 
 best practice, before installing you update the system
 ```
