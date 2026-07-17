@@ -684,9 +684,19 @@ join -o 1.2, 1.3, 2.2, 1.1 filename filename
 ![](../assets/Pasted%20image%2020260717130317.png)
 
 xargs -> command used to build and execute commands from standard input || helpful in handling list of arguments and transforming them into command lines 
+```
+cat filename | xargs echo -> this prints the lines from the cat file, by taking the cat ouput and giving it to the echo input 
+```
 
+```
+cat ~/project/books.txt | xargs -I {} touch ~/project/{}.txt 
 
+- I {} -> to replace occurrences of {} in the command with each input line
+  
+-n 2 -> groups arguments, in this case 2 per command execution 
 
+This script takes the ouput of cats from the file, and creates files for each output using their name as the file name. 
+```
 
 
 
