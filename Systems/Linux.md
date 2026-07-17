@@ -789,8 +789,10 @@ du -> only looks at the directory you are currently in
 --max-depth=0 -> to determine how deep the search should go 
 ```
 
-
-
+time -> measuring the execution time of commands and programs 
+```
+time cat test_file.txt
+```
 
 
 
