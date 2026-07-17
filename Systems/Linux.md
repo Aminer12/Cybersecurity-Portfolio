@@ -744,8 +744,33 @@ This can be cahnged while top is running by pressing d and entering in a new fre
 
 top -u username -> top -u labex || allows you to monitor a specific user 
 
--i -> will ignor
+-i -> will ignore idle processes 
 ```
+
+free -> command to monitor and analyze system memory usage 
+```
+free 
+      total   used     free   shared   buff/cache   available 
+Mem:  8167004 2524956 3300280 658636   2341768       4657560 
+Swap: 2097152 0       2097152
+
+-h -> human-readable format 
+
+-m -> display data in megabytes 
+
+-s 3 -c 5 -> update every 3 seconds for a total of 5 updates
+
+-t -> total combining buffer and cache 
+```
+![](../assets/Pasted%20image%2020260717171316.png)
+
+df -> command used for monitoring disk space usage 
+```
+df
+-h -> human readable 
+-T -> displays different filesystem types 
+```
+![](../assets/Pasted%20image%2020260717171844.png)
 
 ## Principles 
 
