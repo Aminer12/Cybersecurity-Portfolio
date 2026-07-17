@@ -496,6 +496,12 @@ calculates and prints the average age, skipping the header row
 awk 'NR > 1 {sum += $2} END {print "Average age:", sum/(NR-1)}' awk_test.txt
 ```
 
+Filtering Logs Entries 
+```
+awk '$4 == "POST" {print $0}' server_logs.txt 
+
+This command looks at field four for POST
+```
 ##### Software Installation on Linux 
 best practice, before installing you update the system
 ```
@@ -694,6 +700,12 @@ cat ~/project/books.txt | xargs -I {} touch ~/project/{}.txt
 - I {} -> to replace occurrences of {} in the command with each input line
   
 -n 2 -> groups arguments, in this case 2 per command execution 
+
+-P -> to run task parallel 
+
+sh -c -> to execute a simple command that echoes the batch being processed 
+
+
 
 This script takes the ouput of cats from the file, and creates files for each output using their name as the file name. 
 ```
