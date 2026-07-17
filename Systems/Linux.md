@@ -513,7 +513,7 @@ awk '{count[$6]++} END {for (code in count) print code, count[code]}' server_log
 ```
 ![](../assets/Pasted%20image%2020260717133506.png)
 
-
+- Come back to the Linux AWK lesson(Linux commands Practice outline) at a later time to understand the .html report created on the last slide 
 
 
 
