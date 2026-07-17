@@ -769,8 +769,28 @@ df -> command used for monitoring disk space usage
 df
 -h -> human readable 
 -T -> displays different filesystem types 
+-i -> dispalys inodes || which is a data structure that store important information and has a limit, running out would make it impossible to create new files
+
+add a directory path to see the storage of the filesystem the directory resides in
+
+-x tmpfs -> exclude tmpfs from the analysis 
+
+--total -> view the overall disk usage accoss all filesystems 
 ```
 ![](../assets/Pasted%20image%2020260717171844.png)
+![](../assets/Pasted%20image%2020260717172014.png)
+
+du (disk usage) -> command for estimating and analyzing disk space usage 
+
+
+
+
+
+
+
+
+
+
 
 ## Principles 
 
