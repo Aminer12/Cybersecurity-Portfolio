@@ -785,6 +785,8 @@ du (disk usage) -> command for estimating and analyzing disk space usage
 ```
 du -> only looks at the directory you are currently in
 - h -> human readable
+  
+--max-depth=0 -> to determine how deep the search should go 
 ```
 
 
