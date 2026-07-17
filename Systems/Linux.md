@@ -782,7 +782,10 @@ add a directory path to see the storage of the filesystem the directory resides 
 
 du (disk usage) -> command for estimating and analyzing disk space usage 
 
-
+```
+du -> only looks at the directory you are currently in
+- h -> human readable
+```
 
 
 
