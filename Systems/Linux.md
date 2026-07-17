@@ -727,8 +727,25 @@ This script takes the ouput of cats from the file, and creates files for each ou
 
 ##### System Information
 
+top -> monitor system processes and resource usage in real-time
+```
+top -> normally top sorts processes by CPU usage 
 
+once on the top system overview - press M to change the process sort based on 
+memory usage
 
+P -> CPU 
+sort process ID (PID) -> N 
+reverse sort -> R
+h -> for help  
+
+-d 1 -> changes the update frequency from every 3 seconds to 1 second 
+This can be cahnged while top is running by pressing d and entering in a new frequency 
+
+top -u username -> top -u labex || allows you to monitor a specific user 
+
+-i -> will ignor
+```
 
 ## Principles 
 
