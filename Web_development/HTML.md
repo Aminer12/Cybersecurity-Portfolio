@@ -56,6 +56,15 @@ Titles should make sense, use less than 60 characters
 **Body Text Tips** 
 - Whitespace is ignored | this includes tabs 
 - \<br> can be used as a line break
-- \<p> \<\p> is used for paragraph tags
+- \<p> \</p> is used for paragraph tags
 
 #### Basic Text Tags
+\<i> \</i> tags for alternative text, also turning the text within italic 
+\<strong> \</strong> tag used to bold text | \<b> \</b> does the same 
+
+Nesting of tags 
+```
+<b> This line has a <em> nested tag </em> of emphasis and bold.</b>
+```
+
+Headers -> a total of six header are possible following the h1 - h6 format \<h1> \</h1>
