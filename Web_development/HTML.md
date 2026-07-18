@@ -20,3 +20,14 @@ Be sure to stop by my <a href="https://paulmcfedries.com/">home page</a>.
 attribute = link 
 
 ```
+
+#### Structures of a Web Page 
+
+HTML files always lead with this tag 
+```
+<!DOCTYPE html> -> know as the doctype declaration
+
+<html lang="en"> -> this tells web browser that its dealing with an html file and the language is english 
+
+</html> -> this line should end all of the html files 
+```
