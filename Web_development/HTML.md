@@ -51,3 +51,11 @@ Title
 ```
 <title> Title name </title> -> should be placed in between the header
 ```
+Titles should make sense, use less than 60 characters 
+
+**Body Text Tips** 
+- Whitespace is ignored | this includes tabs 
+- \<br> can be used as a line break
+- \<p> \<\p> is used for paragraph tags
+
+#### Basic Text Tags
