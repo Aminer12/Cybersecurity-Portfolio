@@ -81,7 +81,14 @@ Quotations -> gives the quote its own paragraph and is indented toward the left 
 
 links 
 ```
-<a href="address"> </a>
+<a href="address"> linked text </a>
 
 href -> hypertext reference 
+The text that is both the link and explains the link 
 ```
+
+Local web page in same directory as homepage of website -> address is simple the filename 
+
+Local web page in different directory -> address is /directory_name/file_name 
+
+remote website -> full URL of the page 
