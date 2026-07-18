@@ -23,7 +23,7 @@ Skills gained:
 
 ![](../assets/Linux_Commands_Practice_online_labex_Cert.png)
 
-Completed "Practice Linux Commands" via LabEx — 31 hands-on labs,  practice with core Linux terminal commands for file management, text processing, and system monitoring.
+Completed "Practice Linux Commands" via LabEx — 31 hands-on labs, 10 Challenges. Practicing with core Linux terminal commands for file management, text processing, and system monitoring.
 Skills gained:
 - File & directory management (ls, cd, pwd, mkdir, rm, mv, cp)
 - File viewing and concatenation (cat, nl, more, less, head, tail)
