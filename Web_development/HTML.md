@@ -31,3 +31,13 @@ HTML files always lead with this tag
 
 </html> -> this line should end all of the html files 
 ```
+
+Basic page setup
+```
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+	</head>
+	<body>
+```
