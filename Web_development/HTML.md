@@ -68,3 +68,20 @@ Nesting of tags
 ```
 
 Headers -> a total of six header are possible following the h1 - h6 format \<h1> \</h1>
+```
+<h1> A level 1 header </h>
+```
+
+Quotations -> gives the quote its own paragraph and is indented toward the left margin
+```
+<blockquote> 
+	Place quote here 
+</blockquote>
+```
+
+links 
+```
+<a href="address"> </a>
+
+href -> hypertext reference 
+```
