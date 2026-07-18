@@ -37,7 +37,17 @@ Basic page setup
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<meta charset="utf-8">
+		<meta charset="utf-8"> 
 	</head>
 	<body>
+	</body>
+</html
+```
+\<meta charset="utf-8"> -> tells the web browser the page uses this character set which contains most characters used
+
+**Best Practice** -> use the structural tags show above only once on each html page 
+
+Title
+```
+<title> Title name </title> -> should be placed in between the header
 ```
