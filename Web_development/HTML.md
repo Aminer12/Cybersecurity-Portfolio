@@ -103,4 +103,7 @@ Image
 <img scr ="image location" alt=" image text descriptor" > -> the alt only shows if the image does not load 
 ```
 
-link -> 
+link -> element is used to link to external resources like stylesheets and site icons. 
+```
+<link rel="stylesheet" href="./style.css" />
+```
