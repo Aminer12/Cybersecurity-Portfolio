@@ -152,3 +152,10 @@ Basic boilerplate
 ```
 
 UTF-8 Character Encoding -> a method of storing characters as data widely used across the web. 
+
+Comments in code 
+```html
+<!-- comment are are ignored when the program runs -->
+
+format <!-- comment --> 
+```
