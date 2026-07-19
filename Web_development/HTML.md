@@ -271,3 +271,28 @@ og URL
 ```
 
 #### HTML Audio and Video Elements 
+audio -> element supports popular audio formats like mp3, wav, and ogg. 
+video -> element supports mp4, ogg, and webm formats 
+```html
+<audio src="location of file" 
+controls
+loop
+muted> 
+
+</audio>
+controls -> attribute makes the audio visible on the webpage.
+```
+control -> is a Boolean attribute that can be added to an element to enable built-in-playback controls
+loop -> attribute is a boolean that makes the audio replay continuously 
+muted-> boolean attribute will start the audio in a muted state
+
+Audio with multiple sources
+```html
+<audio controls>
+  <source src="audio.ogg" type="audio/ogg" />
+  <source src="audio.wav" type="audio/wav" />
+  <source src="audio.mp3" type="audio/mpeg" />
+</audio>
+```
+The source attribute will cause the browser to select the first source, if it is unable to play the audio it will move down to the second source. 
+
