@@ -310,3 +310,6 @@ All the attributes shown above also work with videos
 width -> attribute is used to effect the start size of the video
 poster (unique to video) -> attribute displays a poster while the video loads 
 
+#### Optimize Media Assets
+size 
+	Like about the 
