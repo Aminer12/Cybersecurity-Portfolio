@@ -238,3 +238,8 @@ script -> element is used to embed executable code. || like JavaScript code || b
 ```
 <script src="path-to-javascript-file.js"></script>
 ```
+
+Button -> element is used to create clickable buttons on a webpage
+```html
+<button> text </button>
+```
