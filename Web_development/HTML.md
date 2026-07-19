@@ -151,4 +151,4 @@ Basic boilerplate
 </html>
 ```
 
-UTF-8 Character Encoding 
+UTF-8 Character Encoding -> a method of storing characters as data widely used across the web. 
