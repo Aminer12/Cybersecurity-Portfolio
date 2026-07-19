@@ -249,3 +249,23 @@ Button -> element is used to create clickable buttons on a webpage
 <meta name="desciption" content="content" />
 name="descritpion" -> ensure the web browser understand the content 
 ```
+
+#### Open Graph Tags and SEO
+Open graph protocol enables you to control how your website's content appears across various social media platforms like Facebook, Linkedin.
+```html
+These tags are placed in the header of a file 
+
+First important OG property is title 
+<meta content="freeCodeCamp.org" property="og:title" />
+content -> information is what will be displayed on the social media platform
+
+Next important is the type -> used to represent the type of content being shared on social media like articles, website, videos, or music 
+
+<meta property="og:type" content="website" />
+
+og Images 
+<meta content=" Image location url" property="og:image" />
+
+og URL 
+<meta property="og:url" content="full url" />
+```
