@@ -243,3 +243,9 @@ Button -> element is used to create clickable buttons on a webpage
 ```html
 <button> text </button>
 ```
+
+#### Role of the Meta Description and its affect on SEO
+```html
+<meta name="desciption" content="content" />
+name="descritpion" -> ensure the web browser understand the content 
+```
