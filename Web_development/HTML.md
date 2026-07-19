@@ -99,12 +99,12 @@ Local web page in different directory -> address is /directory_name/file_name
 remote website -> full URL of the page 
 
 Image
-```
+``` html
 <img scr ="image location" alt=" image text descriptor" > -> the alt only shows if the image does not load 
 ```
 
 link -> element is used to link to external resources like stylesheets and site icons. 
-```
+``` html
 <link rel="stylesheet" href="./style.css" />
 
 link should be placed inside the head element 
@@ -117,3 +117,38 @@ href -> used to specify the location of the URL for the external resource
 
 preconnect -> increased load time by early connecting 
 ```
+
+HTML Boilerplate -> basic structure and essential elements every HTML document needs 
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head> -> meta data goes here 
+    <meta charset="UTF-8" />
+    <meta
+       name="viewport"
+       content="width=device-width, initial-scale=1.0" />
+    <title>freeCodeCamp</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body> -> headings, paragraphs, images etc go here 
+  </body>
+</html>
+```
+Basic boilerplate
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+       name="viewport"
+       content="width=device-width, initial-scale=1.0" />
+    <title></title>
+    <link/>
+  </head>
+  <body> 
+  </body>
+</html>
+```
+
+UTF-8 Character Encoding 
