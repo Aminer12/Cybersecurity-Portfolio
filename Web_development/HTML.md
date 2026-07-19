@@ -215,3 +215,26 @@ class -> attribute values does not need to be unique and can contain spaces || A
 ```
 
 HTML Entities (character reference) is a set of characters used to represent a reserved character in HTML 
+```
+say to wanted to type out a sentence using html tag without them being called, you would used HTML Entities 
+
+<p> learning is fun </p> -> wanted to type this exact senetence without applying the paragraph element
+
+would translate into 
+
+&lt;p&gt; learning is fun &lt;p&gt;
+
+named character references start with a & and end with a ; 
+
+decimal numeric reference starts with a &# followed by one or more decimal points, followed by a semicolon
+
+&#174; -> registered trademark symbol
+
+hexadecimal numeric reference -> &#x followed by one or more ASCII hex digits and ends with a semicolon
+&#x20AC; -> euro symbol
+```
+
+script -> element is used to embed executable code. || like JavaScript code || best practice is to link to a JavaScript file that contains the executable code 
+```
+<script src="path-to-javascript-file.js"></script>
+```
