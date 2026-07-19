@@ -269,3 +269,5 @@ og Images
 og URL 
 <meta property="og:url" content="full url" />
 ```
+
+#### HTML Audio and Video Elements 
