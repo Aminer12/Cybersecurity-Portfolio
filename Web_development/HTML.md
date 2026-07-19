@@ -65,7 +65,7 @@ Titles should make sense, use less than 60 characters
 \<i> \</i> tags for alternative text, also turning the text within italic 
 \<strong> \</strong> tag used to bold text | \<b> \</b> does the same 
 
-Nesting of tags 
+Nesting of tags || nested elements should be placed two spaces further to the right of the element they are nested in. 
 ```
 <b> This line has a <em> nested tag </em> of emphasis and bold.</b>
 ```
@@ -158,4 +158,14 @@ Comments in code
 <!-- comment are are ignored when the program runs -->
 
 format <!-- comment --> 
+```
+
+main -> element used to represent the main content of the body of an HTML document || only one per page || can effect the Search Engine Optimization SEO accessibility 
+```html
+```html
+<main>
+  <h1>Most important content of the document</h1>
+  <p>Some more important content...</p>
+</main>
+```
 ```
