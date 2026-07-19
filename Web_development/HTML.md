@@ -209,7 +209,9 @@ id -> attribute adds a unique identifier to an HTML element || these id can be r
 <h1> id="title"> header title</h1>
 ```
 
-class -> attribute values does not need to be unique and can contain spaces || Add multiple classes by providing spaces between them
+class -> attribute values does not need to be unique and can contain spaces || Add multiple classes by providing spaces between them || best used if you want to apply a set of styles to many classes 
 ```
-<div class="box red-box"></
+<div class="box red-box"></div>
 ```
+
+HTML Entities 
