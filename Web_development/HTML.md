@@ -214,4 +214,4 @@ class -> attribute values does not need to be unique and can contain spaces || A
 <div class="box red-box"></div>
 ```
 
-HTML Entities 
+HTML Entities (character reference) is a set of characters used to represent a reserved character in HTML 
