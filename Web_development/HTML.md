@@ -296,3 +296,16 @@ Audio with multiple sources
 ```
 The source attribute will cause the browser to select the first source, if it is unable to play the audio it will move down to the second source. 
 
+All the attributes shown above also work with videos 
+```html
+<video
+  src="source of video file"
+  loop
+  controls
+  muted
+  width="400"
+  poster="source of poster image while video is loading"
+></video>
+```
+width -> attribute is used to effect the start size of the video
+poster (unique to video) -> attribute displays a poster while the video loads 
