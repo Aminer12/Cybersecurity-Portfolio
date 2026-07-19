@@ -168,4 +168,15 @@ main -> element used to represent the main content of the body of an HTML docume
   <p>Some more important content...</p>
 </main>
 ```
+
+Section -> element used to define sections in a document - such as chapters, headers, footers || its semantic element that helps with SEO and accessibility 
+``` html
+<section> content </section>
+```
+
+unordered list (ul) element | li element -> used to create a list item in an ordered or unordered list 
+```html
+<ul> 
+  <li> content </li>
+</ul>
 ```
