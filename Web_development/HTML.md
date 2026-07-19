@@ -106,4 +106,14 @@ Image
 link -> element is used to link to external resources like stylesheets and site icons. 
 ```
 <link rel="stylesheet" href="./style.css" />
+
+link should be placed inside the head element 
+
+rel -> used to specify the relationship between the linked resource and the HTML document 
+
+href -> used to specify the location of the URL for the external resource 
+
+< link rel="preconnect" href="https://fonts.googleapis.com" />
+
+preconnect -> increased load time by early connecting 
 ```
