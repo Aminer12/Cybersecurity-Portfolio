@@ -197,4 +197,19 @@ footer -> element used to define a footer for a document or section. A footer ty
 </footer>
 ```
 
-div -> elem
+div -> element is used as a container to group other elements || often used to group HTML elements that will share a set of CSS styles. 
+``` html
+<div>
+	<p> Example paragraph element</p>
+</dev>
+```
+
+id -> attribute adds a unique identifier to an HTML element || these id can be referenced within Javascript and CSS code. || for this purpose they should only be used once and remain unique || They cannot have spaces 
+```html
+<h1> id="title"> header title</h1>
+```
+
+class -> attribute values does not need to be unique and can contain spaces || Add multiple classes by providing spaces between them
+```
+<div class="box red-box"></
+```
