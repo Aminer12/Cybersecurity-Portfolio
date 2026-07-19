@@ -174,9 +174,18 @@ Section -> element used to define sections in a document - such as chapters, hea
 <section> content </section>
 ```
 
-unordered list (ul) element | li element -> used to create a list item in an ordered or unordered list 
+unordered list (ul) element | li element -> used to create a list item in an ordered or unordered list || ol -> ordered list 
 ```html
-<ul> 
+<ul> or <ol>
   <li> content </li>
-</ul>
+</ul> or </ol>
+```
+
+figure -> element represents self-contained content and will allow you to associate an image with a caption || figcaption -> element is used to add a caption to describe the image contained 
+```html
+<figure>
+	<img>
+	<figcaption> A caption of image</figcaption>
+	
+</figure>
 ```
