@@ -312,4 +312,29 @@ poster (unique to video) -> attribute displays a poster while the video loads
 
 #### Optimize Media Assets
 size 
-	Like about the 
+	Like about the resolution and the corresponding file size 
+File format
+	optimized web formats - WEBP or AVIF 
+Compression 
+	running compression algorithms on images to reduce file size (Tools like pngcrush)
+	Understanding the difference between lossless compression (losing no image data) and lossy (which does permanently lose image data)
+
+pixabay and unsplash for free open domain pictures 
+
+What are SVG 
+PNG and JPG are classified as raster formats | pixel based, with the data tracking the color value in each pixel  || downside in upscaling 
+
+SVG - scalable vector graphic | tracking data based on paths and equations to plot points, lines, and curves. || storing data in XML meaning you can use them in raw HTML code with the 
+
+svg -> element for svg images 
+```html
+<svg width="100" height="100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="50" cy="50" r="45" stroke="black" stroke-width="4" fill="yellow" />
+  <circle cx="35" cy="40" r="5" fill="black" />
+  <circle cx="65" cy="40" r="5" fill="black" />
+  <path d="M35 65 Q50 80 65 65" stroke="black" stroke-width="4" fill="transparent" />
+</svg>
+
+The output of this code is a smiley face 
+```
+Font Awesome a good source of SVG images 
