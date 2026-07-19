@@ -1,7 +1,8 @@
 tag formatting 
 \<tag>content\</tag>
 - start tag \<tag>
-- placeholder/end tag -> \</tag>
+- placeholder/end tag -> \</tag
+Void elements cannot have context and only have an opening tag 
 
 ```
 In this book, you learn that HTML is <em>awsome</em>. 
@@ -12,6 +13,8 @@ This tag is the emphasis (em),which always italizes the world within the tag -- 
 tags can be modified using attributes, often formatted as shown
 ```
 <tag attribute="value"> 
+or 
+<element attribute="value"></element>
 
 example of creating a link using this format 
 
@@ -81,10 +84,12 @@ Quotations -> gives the quote its own paragraph and is indented toward the left 
 
 links 
 ```
-<a href="address"> linked text </a>
+<a href="address" target="_blank"> linked text </a>
 
 href -> hypertext reference 
 The text that is both the link and explains the link 
+
+target="_blank" -> cause the link to open in a new tab
 ```
 
 Local web page in same directory as homepage of website -> address is simple the filename 
@@ -92,3 +97,8 @@ Local web page in same directory as homepage of website -> address is simple the
 Local web page in different directory -> address is /directory_name/file_name 
 
 remote website -> full URL of the page 
+
+Image
+```
+<img scr ="image location" alt=" image text descriptor" > -> the alt only shows if the image does not load 
+```
