@@ -336,5 +336,6 @@ svg -> element for svg images
 </svg>
 
 The output of this code is a smiley face 
+viewBox -> first two digits represent the start position (0 0 -> top left) next two represent the viewbox width and height
 ```
 Font Awesome a good source of SVG images 
