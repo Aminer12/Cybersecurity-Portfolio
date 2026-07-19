@@ -189,3 +189,10 @@ figure -> element represents self-contained content and will allow you to associ
 	
 </figure>
 ```
+
+footer -> element used to define a footer for a document or section. A footer typically contains information about the author of the document, copyright data, links to terms of use, contact information, and more. 
+```html
+<footer>
+
+</footer>
+```
