@@ -585,4 +585,7 @@ Putting it all together
   <input type="email" id="email" placeholder="example@email.com" />
 </form>
 ```
-The for and id create an explicit connection between the label and the input
+The for and id create an explicit connection between the label and the input element 
+placeholder ->  is an example template shown to the user 
+
+##### Buttons 
