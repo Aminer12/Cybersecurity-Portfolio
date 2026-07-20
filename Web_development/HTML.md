@@ -411,3 +411,4 @@ When you use these states to style your links, there is a specific order you nee
 
 # Semantic HTML
 
+The semantic meaning of an element refers to what special information that element conveys 
