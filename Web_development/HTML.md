@@ -349,7 +349,7 @@ iframe (inline frame) -> element which embeds an external site on your webpage |
 <iframe 
 	width="400" 
 	height="200" 
-	src="https://www.youtube.com/embed/u43gJJrVa1I?si=BoDW_puFsy8OEr_Z"
+	src="https://www.youtube.com/embed/u43gJJrVa1I?si=BoDW_puFsy8OEr_Z" -> need the /embed/ to get a normal youtube video to work on a website in HTML 
 	title="Professional Cloud Architect Certification Course – Pass the Exam! (YouTube video)" 
 	allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
 	referrerpolicy="strict-origin-when-cross-origin" 
@@ -369,3 +369,5 @@ referrerpolicy -> rule that determines how much detail you share when your page 
 ```
 Other replaced elements like video and embed
 If you want to embed direct HTML within the iframe element you have to use the srdoc attribute instead of src. 
+
+#### Working with Links
