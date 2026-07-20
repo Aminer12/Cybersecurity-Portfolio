@@ -507,7 +507,7 @@ time -> element used to represent a specific moment in time
 datetime -> attribute used to translate dates and times into a machine-readable format || must be a valid year, month, time, local date, global date, or duration string || following the ISO 8601 format 
 ```
 
-##### Mathematical Equations and Chemical Formulas || Computer Code
+##### Mathematical Equations and Chemical Formulas || Computer Code || U,S and Ruby elements 
 
 superscript -> element is used to display a piece of text as a superscript || a symbol or letter printed above the normal line of text || only used for typographical reasons 
 ```html
@@ -531,4 +531,23 @@ Multiple lines of code need the preformatted text element || be mindful of space
 		coded text
 	</code>
 </pre>
+```
+
+unarticulated annotation element (u) -> used to represent inline text that has non-textual annotations applied || default style is black underline 
+```html
+<u> text </u>
+```
+
+strikethrough (s) -> element should be used to represent when text is no longer accurate or relevant || never used to show changes to a document
+```html
+<s> text </s>
+```
+
+ruby -> element represents small text shown above or belove the main text || often used to show pronunciation of East Asian Characters 
+```html
+<ruby> 明日 <rp>(</rp><rt>Ashita</rt><rp>)</rp> </ruby>
+
+The `rp` element, or ruby fallback parenthesis element, is used as a fallback for browsers lacking support for displaying ruby annotations.
+
+The `rt` element, or ruby text element, is used to indicate text for the ruby annotation. This text is usually used for pronunciation, or translation details in East Asian typography.
 ```
