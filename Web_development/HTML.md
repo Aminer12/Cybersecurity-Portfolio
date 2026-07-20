@@ -604,3 +604,27 @@ input can also be used to create buttons and has the same three type values of b
 ```
 
 ##### Client-side Form Validation 
+
+label (required field) -> specifies that the user needs to fill out that portion of the form before it gets submitted.
+```
+<label for="email"> Email Address (Requried field):</label>
+```
+minlength / maxlength attributes 
+```html
+<form action="">
+  <label for="email">Email Address (Required field):</label>
+  <input
+    required
+    type="email"
+    name="email"
+    id="email"
+    minlength="4"
+    maxlength="64"
+  />
+  <button type="submit">Submit Form</button>
+</form>
+```
+
+##### Form States 
+default state -> input is blank input 
+focused state -> when the user clicks on the box 
