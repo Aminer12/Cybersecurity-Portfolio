@@ -380,3 +380,5 @@ target -> attribute tells the browser where to open the URL for the anchor eleme
 
 
 ##### Absolute and Relative Path
+
+absolute path -> complete link to a resource starting from the root directory ||when linking a resource on your local machine, use an absolute path. 
