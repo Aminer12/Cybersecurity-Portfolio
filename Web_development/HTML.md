@@ -455,3 +455,13 @@ dt (description term) -> for each term
 dd(description detail) -> providing description or details associated with the term 
 
 ##### Block and Inline Quotes 
+
+blockquote -> element should be used for representing a section quoted from another source || mainly for extended quotes || the cite attribute can take an address URL if you have one 
+```html
+<blockquote cite="location"> quoted text </blockquote>
+```
+Quotation marks for the quote must be written within the text block, html does not do it on its own. 
+cite -> element (different than the attribute) used outside the blockquote -- use to mark up the title or referenced creative work like a book, article, song, film, website, or research paper. 
+```html
+<cite> text </cite>
+```
