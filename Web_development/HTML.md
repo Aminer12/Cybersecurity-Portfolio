@@ -453,3 +453,5 @@ strong should be used to emphasize the importance of the text || crucial or urge
 dl (description list) -> contains the whole list 
 dt (description term) -> for each term
 dd(description detail) -> providing description or details associated with the term 
+
+##### Block and Inline Quotes 
