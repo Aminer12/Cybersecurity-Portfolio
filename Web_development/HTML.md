@@ -421,3 +421,15 @@ big (not recommended) -> makes the font one size large than the font around it
 <center> text </center>
 <big> text </big> 
 ```
+
+i (idiomatic text element) -> used to highlighting alternative voice or mood, idiomatic terms from another language, technical terms, and thoughts
+```
+< i lang="fr"> text in italic</i>
+```
+While em should be used to provide more context or special emphasis to a particular part of the text. 
+
+If you need to display the text in italics, but the text doesn't have a special purpose, style, or meaning in the paragraph, you should use CSS instead. 
+
+##### Strong vs Bring Attention To Elements 
+
+b (Bring Attention To) -> used to highlight keywords in summaries , product names in reviews
