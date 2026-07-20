@@ -597,3 +597,10 @@ button -> element is used to perform a particular action when it is activated.
 type -> attribute control the behavior of the button when it is activated 
 	submit -> value || data will be sent to the server and will be processed. 
 	reset -> value || clear the data within the button form 
+
+input can also be used to create buttons and has the same three type values of button, reset, and submit 
+```html
+<input class="start-btn" type="button" value="Start Game" />
+```
+
+##### Client-side Form Validation 
