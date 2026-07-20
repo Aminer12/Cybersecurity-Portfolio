@@ -507,4 +507,28 @@ time -> element used to represent a specific moment in time
 datetime -> attribute used to translate dates and times into a machine-readable format || must be a valid year, month, time, local date, global date, or duration string || following the ISO 8601 format 
 ```
 
-##### Mathematical Equations and Chemical Formulas
+##### Mathematical Equations and Chemical Formulas || Computer Code
+
+superscript -> element is used to display a piece of text as a superscript || a symbol or letter printed above the normal line of text || only used for typographical reasons 
+```html
+<p>2<sup>2</sup> (2 squared) is 4. </p>
+```
+
+subscript -> element displays a lowered baseline using smaller text || used for chemical formulas, footnotes, and variable subscripts 
+```html
+<p>CO<sub>2</sub></p>
+```
+
+inline code -> element is used to represent short snippets of code inside text || default style is monospaced font || designed to represent a single line of code
+```html
+<code> color:blue;</code>
+```
+
+Multiple lines of code need the preformatted text element || be mindful of spaces as pre will display exactly what you have written
+```html
+<pre>
+	<code>
+		coded text
+	</code>
+</pre>
+```
