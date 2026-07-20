@@ -492,4 +492,17 @@ address -> element can be used for business pages, author pages, personal sites,
   <p>Phone: <a href="tel:+15555555555">+1 (555) 555-5555</a></p>
   <p>Email: <a href="mailto:contact@company.com">contact@company.com</a></p>
 </address>
+
+br - break element used to show division between the information
+href="tel:+ -> creates a clickable link to initiate a phone call on certain devices that support it 
+href="mailto:" -> links are used in HTML documents to allow users to open a new email within their preferred email client || can be percieved as spam mail
+```
+
+##### Display Time and Dates 
+
+time -> element used to represent a specific moment in time 
+```html
+<time datetime="20:20">20:00</time>
+
+datetime -> attribute used to translate dates and times into a machine-readable format || must be a valid year, month, time, local date, global date, or duration string || following the ISO 8601 format 
 ```
