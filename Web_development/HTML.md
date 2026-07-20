@@ -589,3 +589,11 @@ The for and id create an explicit connection between the label and the input ele
 placeholder ->  is an example template shown to the user 
 
 ##### Buttons 
+
+button -> element is used to perform a particular action when it is activated.
+```html 
+<button type="button"> text </button>
+```
+type -> attribute control the behavior of the button when it is activated 
+	submit -> value || data will be sent to the server and will be processed. 
+	reset -> value || clear the data within the button form 
