@@ -556,5 +556,33 @@ The `rt` element, or ruby text element, is used to indicate text for the ruby 
 
 form -> element used to gather user information, such as name and email address
 ```html
-<form action="URL
+<form action="URL"> input element here </form>
 ```
+action -> attribute specifies where the form data will be sent upon submission. 
+
+input -> element are void elements
+```html
+<form action="URL">
+	<input type="text"/>
+</form>
+```
+type -> attribute defines the data type expected from the user. 
+
+label -> element explains what the input is for 
+```html
+<form action="URL">
+	<label>
+		Full Name:
+		<input type="text"/>
+	</label>
+</form>
+```
+
+Putting it all together
+```html
+<form action="">
+  <label for="email"> Email Address: </label>
+  <input type="email" id="email" placeholder="example@email.com" />
+</form>
+```
+The for and id create an explicit connection between the label and the input
