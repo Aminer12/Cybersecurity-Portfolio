@@ -465,3 +465,31 @@ cite -> element (different than the attribute) used outside the blockquote -- us
 ```html
 <cite> text </cite>
 ```
+
+q (inline quotation element) -> used to have inline quotations || most modern browser will auto put quotation marks
+```html
+<q cite="source"> text </q>
+```
+
+##### Display Abbreviations 
+abbr (abbreviation) -> element used to specify abbreviations
+```html
+<abbr title="HyperText Markup Language">HTML</abbr>
+Title -> attribute used to explain the meaning, when the word is hovered over it will display the title 
+```
+
+##### Display Addresses 
+
+address -> element can be used for business pages, author pages, personal sites, and more 
+```html
+<address>
+  <h2>Company Name</h2>
+  <p>
+    1234 Elm Street<br />
+    Springfield, IL 62701<br />
+    United States
+  </p>
+  <p>Phone: <a href="tel:+15555555555">+1 (555) 555-5555</a></p>
+  <p>Email: <a href="mailto:contact@company.com">contact@company.com</a></p>
+</address>
+```
