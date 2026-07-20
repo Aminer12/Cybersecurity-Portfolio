@@ -393,4 +393,12 @@ relative path -> specifies the location of a file relative to the directory of t
 - Use relative paths when linking to resources within the same website.
 - Use relative paths if you want to keep your code cleaner and easier to maintain during development.
 - Use relative paths during local testing to ensure links work without an internet connection.
-- 
+
+**Different link states / Importance** 
+First (default state) -> :link -> represents a link which the user has not visited 
+
+second state -> :visited -> applies when a user has already visited the page being linked to. || turning the link purple by default 
+
+third state -> :hover -> applies when a user is hovering their curser over a link || often changing the color of the link 
+
+fourth state -> :focus -> applies when we focus on a link || changing colors when someone tabs through a page 
