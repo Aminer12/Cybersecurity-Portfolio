@@ -432,4 +432,24 @@ If you need to display the text in italics, but the text doesn't have a special 
 
 ##### Strong vs Bring Attention To Elements 
 
-b (Bring Attention To) -> used to highlight keywords in summaries , product names in reviews
+b (Bring Attention To) -> used to highlight keywords in summaries , product names in reviews || displaying the text in boldface 
+```html
+<b> text </b> 
+```
+
+strong should be used to emphasize the importance of the text || crucial or urgent text 
+```html
+<strong> text </strong> 
+```
+
+##### Description List 
+-> presenting terms and definitions in an organized and easy to read format, like a glossary, or dictionary 
+```html
+<dl>
+	<dt>HTML</dt>
+	<dd>HyperText Markup Language</dd>
+</dl>
+```
+dl (description list) -> contains the whole list 
+dt (description term) -> for each term
+dd(description detail) -> providing description or details associated with the term 
