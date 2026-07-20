@@ -506,3 +506,5 @@ time -> element used to represent a specific moment in time
 
 datetime -> attribute used to translate dates and times into a machine-readable format || must be a valid year, month, time, local date, global date, or duration string || following the ISO 8601 format 
 ```
+
+##### Mathematical Equations and Chemical Formulas
