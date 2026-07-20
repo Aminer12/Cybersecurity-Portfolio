@@ -1,3 +1,5 @@
+
+# HTML Basics
 tag formatting 
 \<tag>content\</tag>
 - start tag \<tag>
@@ -405,4 +407,7 @@ fourth state -> :focus -> applies when we focus on a link || changing colors whe
 
 fifth state -> :active -> applies to links that are being activated by the user. 
 
-When you use these states to style your links, there is a specific order you need to write your CSS in -> link, visited, hover, focus, active 
+When you use these states to style your links, there is a specific order you need to write your CSS in -> link, visited, hover, focus, active
+
+# Semantic HTML
+
