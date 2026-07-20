@@ -356,5 +356,16 @@ iframe (inline frame) -> element which embeds an external site on your webpage |
 	allowfullscreen></iframe>
 	
 allow -> determines what an iframe can and cannot do || if we added clipboard-write it would allow the embedded page to write items to your clipboard. || items in an allowlist can be seperated by semicolons or spaces, and both can be used together. 
+	accelerometer -> use motion sensors so ti can detect things like device tilting and rotation 
+	autoplay -> lets the video start playing automatically
+	clipboard-write -> write data to the user's clipboard
+	encrypted-media -> allow the use of encrypted media extensions to protect the video 
+	gyroscope -> grant access to the devices motion and orientation sensors
+	web-share -> sharing the content through the device's native share dialogs
+	
+	
+referrerpolicy -> rule that determines how much detail you share when your page connects to another page. 
+	-> the policy show above shares the full address on the same site, only the site name on other sites, and nothing on insecure sites
 ```
 Other replaced elements like video and embed
+If you want to embed direct HTML within the iframe element you have to use the srdoc attribute instead of src. 
