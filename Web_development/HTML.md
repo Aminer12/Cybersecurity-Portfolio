@@ -412,3 +412,12 @@ When you use these states to style your links, there is a specific order you nee
 # Semantic HTML
 
 The semantic meaning of an element refers to what special information that element conveys 
+
+font (not recommended) -> a deprecated /outdated element used to set the font size and color of the text. 
+center (not recommended) -> center font to the middle of the screen
+big (not recommended) -> makes the font one size large than the font around it 
+```html
+<font size="number" color="blue"> text here </font>
+<center> text </center>
+<big> text </big> 
+```
