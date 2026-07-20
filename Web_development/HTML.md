@@ -371,3 +371,12 @@ Other replaced elements like video and embed
 If you want to embed direct HTML within the iframe element you have to use the srdoc attribute instead of src. 
 
 #### Working with Links
+target -> attribute tells the browser where to open the URL for the anchor element || four important values this attribute can have 
+	\_self -> which is the default value. This opens the link in the current browsing context. 
+	\_blank -> opens the link in a new browsing context. Typically this will open a new tab
+	\_parent -> opens the link in the parent of the current context || for example when clicking on a youtube video this value would play it from your site instead of opening up youtube.
+	\_top -> opens the link in the top-most browsing context || will always open in the full browser tab/window, even for nested embedded frames
+	\_unfencedTop -> used for experimental FencedFrame API
+
+
+##### Absolute and Relative Path
