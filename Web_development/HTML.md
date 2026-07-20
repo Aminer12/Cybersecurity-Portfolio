@@ -628,3 +628,5 @@ minlength / maxlength attributes
 ##### Form States 
 default state -> input is blank input 
 focused state -> when the user clicks on the box 
+disabled state -> state shows users that an input cannot be focused or activated
+readonly state -> not editable by the user 
