@@ -339,3 +339,22 @@ The output of this code is a smiley face
 viewBox -> first two digits represent the start position (0 0 -> top left) next two represent the viewbox width and height
 ```
 Font Awesome a good source of SVG images 
+
+#### Iframe Elements 
+
+replacement elements -> element whose content is determined by an external resource rather than by CSS itself. || With replacement elements, you can control the position, or layout of an element -- but CSS cannot directly modify the content of that element 
+
+iframe (inline frame) -> element which embeds an external site on your webpage || often used for embedded Youtube videos or maps || it embeds other HTML content directly within the HTML page
+```html
+<iframe 
+	width="400" 
+	height="200" 
+	src="https://www.youtube.com/embed/u43gJJrVa1I?si=BoDW_puFsy8OEr_Z"
+	title="Professional Cloud Architect Certification Course – Pass the Exam! (YouTube video)" 
+	allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+	referrerpolicy="strict-origin-when-cross-origin" 
+	allowfullscreen></iframe>
+	
+allow -> determines what an iframe can and cannot do || if we added clipboard-write it would allow the embedded page to write items to your clipboard. || items in an allowlist can be seperated by semicolons or spaces, and both can be used together. 
+```
+Other replaced elements like video and embed
