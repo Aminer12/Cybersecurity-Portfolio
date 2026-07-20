@@ -551,3 +551,10 @@ The `rp` element, or ruby fallback parenthesis element, is used as a fallback 
 
 The `rt` element, or ruby text element, is used to indicate text for the ruby annotation. This text is usually used for pronunciation, or translation details in East Asian typography.
 ```
+
+# Forms and Tables
+
+form -> element used to gather user information, such as name and email address
+```html
+<form action="URL
+```
