@@ -648,7 +648,9 @@ legend -> element used to capture group description
 
 
 
+checked attribute -> auto checks a checkbox option
 
+selected -> attribute inside an option element to be auto selected 
 
 
 
