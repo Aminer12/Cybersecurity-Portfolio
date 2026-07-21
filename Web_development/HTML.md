@@ -769,5 +769,7 @@ w3.org markup validation service
 
 Jsonformatter.org
 
-##### 
+##### DOM  
 DOM inspector -> allows you to inspect the HTML structure of the page you are on 
+
+# Accessibility
