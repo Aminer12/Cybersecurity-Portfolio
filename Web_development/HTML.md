@@ -703,3 +703,62 @@ tr -> table row || each one can have a th(table header) || an a number of data c
 
 output
 ![](../assets/Pasted%20image%2020260720204359.png)
+
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Calculus Final Exams Table</title>
+    <meta charset="UTF-8" />
+  </head>
+  <body>
+    <table>
+      <caption>
+        Calculus Final Exam Grades
+      </caption>
+      <thead>    
+        <tr>
+          <th>Last Name</th>
+          <th>First Name</th>
+          <th>Grade</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Davis</td>
+          <td>Alex</td>
+          <td>54</td>
+        </tr>
+        <tr>
+          <td>Doe</td>
+          <td>Samantha</td>
+          <td>92</td>
+        </tr>
+        <tr>
+          <td>Rodriguez</td>
+          <td>Marcus</td>
+          <td>88</td>
+        </tr>
+        <tr>
+          <td>Thompson</td>
+          <td>Jane</td>
+          <td>77</td>
+        </tr>
+        <tr>
+          <td>Williams</td>
+          <td>Natalie</td>
+          <td>83</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="2">Average Grade</td>
+          <td>78.8</td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>
+```
+![](../assets/Pasted%20image%2020260720210248.png)
