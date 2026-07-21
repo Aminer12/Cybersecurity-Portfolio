@@ -584,8 +584,10 @@ Putting it all together
   <label for="email"> Email Address: </label>
   <input type="email" id="email" placeholder="example@email.com" />
 </form>
+size -> attribute defines the number of characters that should be visible 
+
 ```
-The for and id create an explicit connection between the label and the input element 
+The for and id create an explicit connection between the label and the input element || the for attribute on the label element should match the id attribute on the input element
 placeholder ->  is an example template shown to the user 
 
 ##### Buttons 
