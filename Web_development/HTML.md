@@ -652,7 +652,9 @@ checked attribute -> auto checks a checkbox option
 
 selected -> attribute inside an option element to be auto selected 
 
-
+textarea -> element is a multi-line text input control that allows user to enter text that is longer than a single line
+	row -> attribute is used to specify the visible height of the textarea
+	cols -> attribute used to specify the visible width of the textarea
 
 
 
