@@ -655,15 +655,48 @@ selected -> attribute inside an option element to be auto selected
 textarea -> element is a multi-line text input control that allows user to enter text that is longer than a single line
 	row -> attribute is used to specify the visible height of the textarea
 	cols -> attribute used to specify the visible width of the textarea
-
-
-
-
-
-
-
+look at form project for understanding 
 ##### Form States 
 default state -> input is blank input 
 focused state -> when the user clicks on the box 
 disabled state -> state shows users that an input cannot be focused or activated
 readonly state -> not editable by the user 
+
+##### Tables HTML 
+```
+<table id="text display">
+thead -> table head element 
+tbody -> body element
+tfoot -> table food element
+
+tr -> table row || each one can have a th(table header) || an a number of data cells (td - table data)
+```
+
+```
+<table>
+  <thead>
+    <tr>
+      <th>The title of this table</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>First Row</th>
+      <td>
+        First Data Cell
+      </td>
+    </tr>
+    <tr>
+      <th>Second Row</th>
+      <td>
+        Second Data Cell
+      </td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <th>The footer of this table, which might contain date of publication, author credits, or other meta information.</th>
+    </tr>
+  </tfoot>
+</table>
+
