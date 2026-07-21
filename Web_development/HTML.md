@@ -672,7 +672,7 @@ tfoot -> table food element
 tr -> table row || each one can have a th(table header) || an a number of data cells (td - table data)
 ```
 
-```
+```html
 <table>
   <thead>
     <tr>
@@ -699,4 +699,7 @@ tr -> table row || each one can have a th(table header) || an a number of data c
     </tr>
   </tfoot>
 </table>
+```
 
+output
+![](../assets/Pasted%20image%2020260720204359.png)
