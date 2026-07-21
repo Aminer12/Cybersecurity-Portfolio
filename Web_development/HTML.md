@@ -762,3 +762,12 @@ output
 </html>
 ```
 ![](../assets/Pasted%20image%2020260720210248.png)
+
+##### HTML Validator
+
+w3.org markup validation service 
+
+Jsonformatter.org
+
+##### 
+DOM inspector -> allows you to inspect the HTML structure of the page you are on 
