@@ -625,6 +625,37 @@ minlength / maxlength attributes
 </form>
 ```
 
+action -> attribute is used to specify where the form data should be sent when the form is submitted 
+method -> is used to specify the HTTP method to use when sending the form data || commonly the GET and POST 
+```html
+<form method="value-goes-here" action="url-goes-here">
+  <!-- inputs go inside here -->
+</form>
+```
+
+fieldset -> element can be used to group user inputs 
+legend -> element used to capture group description
+```
+<form>
+	<fieldset>
+		<legend> caption information</legend>
+		inputs
+	</fieldset>
+</form>
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
 ##### Form States 
 default state -> input is blank input 
 focused state -> when the user clicks on the box 
